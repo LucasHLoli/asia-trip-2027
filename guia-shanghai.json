@@ -1,0 +1,2351 @@
+{
+ "city_id": "shanghai",
+ "title_pt": "Shanghai e arredores (Suzhou e Hangzhou)",
+ "date_range_pt": "Saída de GRU em 16/fev/2027 (terça). Na região de 18 a 22/fev/2027 (quinta a segunda)",
+ "one_liner_pt": "5 dias entre o Bund, as lanternas de Yuyuan, os canais de Suzhou na noite do Festival das Lanternas e o West Lake de Hangzhou, com trem-bala entre as cidades e saída para Shangrao em 22/fev.",
+ "glance": {
+  "nights": 4,
+  "cost_brl_couple": 5250,
+  "flight_brl_couple": 15000,
+  "top_risks_pt": [
+   "Visto: a isenção de 30 dias só cobre entradas até 31/12/2026 e, até set/2026, não saiu prorrogação. Sem anúncio até meados de nov/2026, tirem o visto L, dando entrada entre ~20/nov e ~15/jan (ver 'Documentos'). Com isenção, comprem ANTES do embarque a saída da China: a companhia costuma pedir no check-in em GRU.",
+   "Trens de 20 a 22/fev: fim do chunyun (pico de viagens do Ano Novo Chinês) + Festival das Lanternas. A venda abre em 6, 7 e 8/fev. A pré-reserva do Trip.com NÃO garante o bilhete: tenham trens de reserva. Os 3 trens custam ~R$760 o casal.",
+   "22/fev é o dia mais apertado: Lingyin às 7:30 e trem G1657 às 11:20 (não existe trem às 11:30). Se às 09:15 ainda estiverem no templo, troquem para o G1375 (12:10) na hora.",
+   "Orçamento de hotel: as escolhas principais (R$474, R$800 e R$520 por noite) passam do teto de R$400. Com as econômicas (Ji Shanghai, Anyi Suzhou, Ji Hangzhou) economizam ~R$710. Em Suzhou, no sábado das Lanternas, abaixo de R$400 é improvável: reservem já.",
+   "Tudo depende do celular: eSIM, Alipay e Didi configurados e testados no Brasil. Levem ¥ em notas como plano B. Preços de voo e hotel são estimativas: confirmem nas datas reais."
+  ]
+ },
+ "phases": [
+  {
+   "id": "pre",
+   "title_pt": "Antes de pisar na China",
+   "subtitle_pt": "Na ordem em que se faz, de setembro/2026 até o pouso em Shanghai",
+   "sections": [
+    {
+     "id": "voo",
+     "title_pt": "1. Escolher e comprar o voo",
+     "why_pt": "É o item mais caro, e o horário do voo define se o dia 18 é aproveitado ou perdido.",
+     "steps": [
+      {
+       "title_pt": "Pesquisar no Google Voos em 'Vários trechos'",
+       "detail_pt": "Em google.com/travel/flights, escolham 'Vários trechos' com 2 adultos. Trecho 1: GRU → PVG em 16/fev. Trecho 2: Tóquio (HND ou NRT) → GRU em 05/abr. Toquem em 'Monitorar preços'. Repitam no Skyscanner ou Kayak ('Multidestino').",
+       "flag": "normal",
+       "when_pt": "Agora (set/2026)",
+       "link_label": "Google Voos",
+       "link_url": "https://www.google.com/travel/flights"
+      },
+      {
+       "title_pt": "Preferir Lufthansa via Frankfurt, tarifa Classic",
+       "detail_pt": "Sai de GRU às 18:45 do dia 16 e chega em PVG às 10:05 do dia 18. A rota pela Europa evita o risco da guerra no Golfo. A tarifa Light NÃO inclui mala despachada; a Classic inclui 1 mala de 23 kg. Plano B: KLM via Amsterdã (tarifa Standard).",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Cuidado com voos de madrugada",
+       "detail_pt": "Qatar (01:00) e Turkish (04:10) têm data de 17/fev no bilhete: vocês precisariam estar em GRU na NOITE do dia 16.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Comprar no site brasileiro da companhia, num único bilhete",
+       "detail_pt": "Refaçam a busca no site da companhia (versão Brasil): em reais não há IOF e remarcar é mais fácil. Tudo num ÚNICO bilhete: se o 1º voo atrasar, a companhia é obrigada a colocar vocês no próximo.",
+       "flag": "dica",
+       "when_pt": "Set a nov/2026",
+       "cost_brl": 15000
+      },
+      {
+       "title_pt": "Digitar o nome exatamente como no passaporte",
+       "detail_pt": "Sobrenome e nomes sem acento e sem abreviar. Erro no nome invalida o bilhete.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Conferir o e-mail de confirmação",
+       "detail_pt": "Precisa ter o LOCALIZADOR (PNR, 6 letras e números) e o NÚMERO DO BILHETE (13 dígitos). Sem o número do bilhete, a passagem não foi emitida. Em 'Gerenciar reserva', marquem assentos juntos.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Errou? Cancelem em até 24h sem multa",
+       "detail_pt": "Regra da ANAC: bilhete vendido no Brasil pode ser cancelado sem multa em até 24h após a compra, se feita 7 dias ou mais antes do voo.",
+       "flag": "dica"
+      }
+     ]
+    },
+    {
+     "id": "documentos",
+     "title_pt": "2. Documentos",
+     "why_pt": "Sem visto (ou isenção válida), bilhete de saída e CIVP, vocês podem ser barrados no embarque ou na chegada.",
+     "steps": [
+      {
+       "title_pt": "Conferir se o passaporte vale até out/2027",
+       "detail_pt": "Precisa de pelo menos 6 meses de validade depois de 05/abr/2027 e 2 páginas em branco. Se não tiver, tirem um novo na Polícia Federal antes de comprar o voo.",
+       "flag": "critico",
+       "when_pt": "Agora"
+      },
+      {
+       "title_pt": "Decidir em 04/dez/2026: isenção ou visto L",
+       "detail_pt": "A isenção de 30 dias só cobre entradas até 31/12/2026. Até 04/12, conferir toda semana o site da Embaixada da China no Brasil. Se não houver texto oficial cobrindo entrada em fev/2027, peçam o visto L (passo seguinte). Detalhes na aba Afazeres.",
+       "flag": "critico",
+       "when_pt": "Até 04/dez/2026",
+       "link_label": "Embaixada da China no Brasil",
+       "link_url": "https://br.china-embassy.gov.cn/"
+      },
+      {
+       "title_pt": "Como tirar o visto L (turismo)",
+       "detail_pt": "Preencham o formulário em consular.mfa.gov.cn/VISA e imprimam. Entreguem no Consulado da China em SP (R. Estados Unidos, 1071), das 9h às 12h em dia útil, sem agendamento. Levem passaporte, foto de fundo branco, reserva de voo e hotéis e extrato bancário. Taxa: R$ 475 por pessoa; pedidos até 31/12/2026 dispensam digitais.",
+       "flag": "critico",
+       "when_pt": "Protocolar até 18/dez/2026",
+       "cost_brl": 950,
+       "link_label": "Consulado da China em SP (vistos)",
+       "link_url": "https://saopaulo.china-consulate.gov.cn/pl/lsqw/Visto/202512/t20251229_11789806.htm"
+      },
+      {
+       "title_pt": "Pegadinha do visto L: prazo para entrar",
+       "detail_pt": "Ao retirar o visto, olhem a etiqueta: o campo 'Enter before' tem de ser DEPOIS de 18/02/2027. Confiram também 'Duration of each stay' (precisam de 31 dias ou mais) e se nome e passaporte estão corretos.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Comprar e imprimir a saída da China antes de 16/fev",
+       "detail_pt": "A companhia e a imigração podem pedir prova de que vocês saem da China. Comprem o voo Pequim → Seul de 20/mar (ou 19/mar, para ter folga) e imprimam junto com a reserva do 1º hotel.",
+       "flag": "critico",
+       "when_pt": "Até jan/2027"
+      },
+      {
+       "title_pt": "Saber a data-limite da isenção",
+       "detail_pt": "Os 30 dias contam a partir de 00:00 do dia seguinte à entrada. Entrando em 18/02, o limite oficial é 20/03/2027 às 23:59. Planejem sair até 19/03 para ter 1 dia de folga. Se o roteiro na China passar disso, precisam do visto L.",
+       "flag": "atencao",
+       "link_label": "China Briefing",
+       "link_url": "https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide/"
+      },
+      {
+       "title_pt": "Tirar o CIVP de febre amarela",
+       "detail_pt": "CIVP é o Certificado Internacional de Vacinação ou Profilaxia, emitido no gov.br depois da vacina. Na China a checagem é aleatória, mas quem vem do Brasil sem ele pode ficar até 6 dias em observação. Cada um leva o seu, impresso e em PDF.",
+       "flag": "critico",
+       "when_pt": "Até dez/2026"
+      },
+      {
+       "title_pt": "Contratar seguro-viagem com apólice em inglês",
+       "detail_pt": "Confiram se cobre China e Japão nos 48 dias, atraso de voo e extravio de mala. Guardem o PDF e o telefone 24h.",
+       "flag": "atencao",
+       "when_pt": "Depois de comprar o voo"
+      },
+      {
+       "title_pt": "Pedir receita em inglês para remédios de uso contínuo",
+       "detail_pt": "Levem na caixa original. Ritalina, Venvanse e outros estimulantes são proibidos na China. Rivotril e Stilnox são arriscados: falem com o médico e consultem a Embaixada da China com 6 semanas ou mais de antecedência.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Montar uma pasta com tudo impresso",
+       "detail_pt": "Passaportes, visto ou print da isenção, CIVP, passagens (ida e saída da China), reservas de hotel com endereço EM CHINÊS, seguro e receitas. Foto de cada um no celular.",
+       "flag": "normal",
+       "when_pt": "1 semana antes"
+      }
+     ]
+    },
+    {
+     "id": "dinheiro",
+     "title_pt": "3. Dinheiro e cartões",
+     "why_pt": "Na China quase tudo se paga pelo celular, e um cartão bloqueado pode travar o dia.",
+     "steps": [
+      {
+       "title_pt": "Ter 2 cartões FÍSICOS internacionais por pessoa",
+       "detail_pt": "Um de crédito Visa ou Mastercard (Nubank, Inter, C6) e um de débito em conta global (Wise ou Nomad) para sacar. Cartão virtual ou pré-pago costuma falhar no Alipay. Ativem compras internacionais nos apps dos bancos.",
+       "flag": "critico",
+       "when_pt": "Agora"
+      },
+      {
+       "title_pt": "Testar o pagamento por aproximação",
+       "detail_pt": "O metrô de Shanghai aceita encostar o cartão na catraca, mas só se ele fizer compra por aproximação sem senha. Testem numa loja no Brasil.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Dinheiro vivo: ¥200–300 + US$100–200 de emergência",
+       "detail_pt": "Comprem ¥200–300 em notas de ¥10 e ¥20 no Brasil (sai R$0,90–1,24 por yuan). Dólar não é aceito no comércio: só serve para trocar no Bank of China com passaporte. O resto saquem no Bank of China em PVG com o cartão de DÉBITO. NUNCA saquem com o crédito.",
+       "flag": "dica",
+       "cost_brl": 230
+      },
+      {
+       "title_pt": "Saber as taxas",
+       "detail_pt": "Toda compra com cartão brasileiro paga IOF de 3,5%. Alipay e WeChat Pay cobram 3% sobre o valor TODO acima de ¥200: dividam compras grandes quando der.",
+       "flag": "atencao"
+      }
+     ]
+    },
+    {
+     "id": "celular",
+     "title_pt": "4. Celular, eSIM e apps",
+     "why_pt": "Na China, Google e WhatsApp são bloqueados, e sem Alipay vocês não pagam nada nem pegam Didi.",
+     "steps": [
+      {
+       "title_pt": "Ver se os celulares aceitam eSIM",
+       "detail_pt": "eSIM é um chip digital. Disquem *#06#: se aparecer 'EID', o celular tem eSIM. Confirmem que está desbloqueado para outras operadoras.",
+       "flag": "normal",
+       "when_pt": "Agora"
+      },
+      {
+       "title_pt": "Comprar o eSIM Nomad China+Japão+Coreia",
+       "detail_pt": "20 GB por 45 dias, ~R$164 com IOF. Funciona na China SEM VPN (WhatsApp e Google abrem). Prazo para ativar: 60 dias após a compra. Os 45 dias acabam ~03/abr: façam um top-up (recarga) no final.",
+       "flag": "dica",
+       "when_pt": "Meados de jan/2027",
+       "cost_brl": 164,
+       "link_label": "Nomad eSIM",
+       "link_url": "https://www.nomadesim.com/cn-jp-kr-eSIM"
+      },
+      {
+       "title_pt": "Instalar o eSIM em casa e deixar DESLIGADO",
+       "detail_pt": "No wi-fi: Ajustes > Celular > Adicionar eSIM e escaneiem o QR. Chamem a linha de 'Viagem' e deixem desligada até o pouso.",
+       "flag": "atencao",
+       "when_pt": "13 a 15/fev"
+      },
+      {
+       "title_pt": "Configurar o Alipay com cartão",
+       "detail_pt": "Baixem o 'Alipay' azul (não o AlipayHK), cadastrem com +55, escolham 'Passport' e fotografem o passaporte. Em 'Me' > 'Bank Cards' > 'Add card', coloquem o cartão físico. Abram 'Transport' e 'DiDi' para conhecer as telas.",
+       "flag": "critico",
+       "when_pt": "Fim de dez/2026",
+       "link_label": "Guia Alipay",
+       "link_url": "https://chinatravelradar.com/en/pay/alipay-for-foreigners/"
+      },
+      {
+       "title_pt": "Instalar o DiDi Rider como segunda via",
+       "detail_pt": "App do Didi em inglês, com cartão internacional. Cadastrem com +55 no Brasil. Serve se o miniapp do Alipay (quase todo em chinês) confundir.",
+       "flag": "dica",
+       "when_pt": "Jan/2027"
+      },
+      {
+       "title_pt": "Configurar o WeChat como reserva",
+       "detail_pt": "Cadastrem com +55. Um conhecido que já usa WeChat escaneia o QR de verificação na tela de vocês (dá por videochamada). NÃO apaguem e reinstalem várias vezes: o número pode ser bloqueado. Ele é necessário para reservar o jardim de Suzhou.",
+       "flag": "atencao",
+       "when_pt": "Jan/2027"
+      },
+      {
+       "title_pt": "Instalar os apps que não existem na China",
+       "detail_pt": "AMAP Global (mapa; o Google Maps erra ~500 m na China), Trip.com, Metro Man (metrô offline) e Google Tradutor com Chinês offline. A loja de apps chinesa não tem VPN nem AMAP Global.",
+       "flag": "atencao",
+       "when_pt": "Jan/2027"
+      },
+      {
+       "title_pt": "Assinar uma VPN como plano B",
+       "detail_pt": "VPN disfarça a conexão; só é necessária se o eSIM falhar ou no wi-fi do hotel. Plano mensal (Astrill; LetsVPN como alternativa), com login feito no Brasil.",
+       "flag": "normal",
+       "when_pt": "~4 semanas antes"
+      }
+     ]
+    },
+    {
+     "id": "hoteis",
+     "title_pt": "5. Reservar hotéis",
+     "why_pt": "No Festival das Lanternas, os hotéis bons de Suzhou esgotam e ficam bem mais caros.",
+     "steps": [
+      {
+       "title_pt": "Pagar antecipado no Trip.com COM cancelamento grátis",
+       "detail_pt": "Escolham a linha 'Free cancellation before [data]' e paguem já com o cartão. Assim, se o cartão estrangeiro der problema, vocês descobrem em casa, não no balcão de uma rede chinesa. Evitem 'Non-refundable'. O prazo de cancelar segue o horário da China (11h a mais que Brasília).",
+       "flag": "critico",
+       "when_pt": "Set/out 2026"
+      },
+      {
+       "title_pt": "Saber que as principais passam do orçamento",
+       "detail_pt": "Principais: R$474 (Shanghai), R$800 (Suzhou, sábado de feriado) e R$520 (Hangzhou). Dentro do teto de R$400: Ji People's Square (R$332) e Ji Hangzhou (R$330). Em Suzhou, a mais barata boa é o Anyi (~R$560).",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Confirmar que o hotel aceita estrangeiros",
+       "detail_pt": "Na página do hotel, desçam até 'Policies' e procurem 'Guests from all countries/regions are welcome'. Todos os hotéis deste guia têm essa frase.",
+       "flag": "atencao",
+       "link_label": "Como reservar hotel na China",
+       "link_url": "https://chinatour.bswen.com/blog/2026-07-16-how-to-book-hotels-china-foreigner/"
+      },
+      {
+       "title_pt": "Escolher quarto COM janela",
+       "detail_pt": "Evitem 'No window', 'fixed window' ou 'window facing hallway'. É comum no Ji e no Atour S de Suzhou.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Não reservar Airbnb",
+       "detail_pt": "Em casa particular, o próprio estrangeiro tem de se registrar na polícia em até 24h (multa de até ¥2.000). No hotel, isso é feito no check-in.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Cartão recusado na caução? Paguem de outro jeito",
+       "detail_pt": "No check-in o hotel bloqueia uma caução (押金, ~¥300–500). Se o cartão for recusado, paguem pelo Alipay ou em dinheiro e peçam recibo. É devolvida no check-out.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Pedir early check-in 3 dias antes",
+       "detail_pt": "No 'Message hotel' do Trip.com: 'We arrive around 1pm on Feb 18 after a long flight. Could you arrange early check-in if possible?'. Se não der, o hotel guarda as malas de graça.",
+       "flag": "dica",
+       "when_pt": "15/fev"
+      }
+     ]
+    },
+    {
+     "id": "trens-ingressos",
+     "title_pt": "6. Comprar trens e ingressos",
+     "why_pt": "Cada item abre para venda numa data diferente e esgota rápido nesse feriado.",
+     "steps": [
+      {
+       "title_pt": "Pré-reservar os 3 trens no Trip.com",
+       "detail_pt": "Em Trains > China, 2nd Class (2ª classe): 20/fev G7006 上海站 → 苏州站, 09:00, ¥39,5. 21/fev G7587 苏州站 → 杭州东, 09:19, ¥178,5. 22/fev G1657 杭州东 → 上饶 (Shangrao), 11:20, ¥263,5. Total ¥963 o casal (~R$760 com IOF). A venda abre 15 dias antes: 6/fev, 7/fev e 8/fev (horário da China).",
+       "flag": "critico",
+       "when_pt": "Out/2026 a jan/2027",
+       "cost_brl": 760,
+       "link_label": "Trip.com trens",
+       "link_url": "https://www.trip.com/blog/how-to-buy-china-high-speed-rail-tickets-for-foreigners/"
+      },
+      {
+       "title_pt": "Conferir o nome exato das estações",
+       "detail_pt": "Shanghai = 上海站 (não Hongqiao). Suzhou = 苏州站 (não 苏州北 Suzhou North nem Suzhou Industrial Park). Hangzhou = 杭州东 (Hangzhou East).",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Nos dias 6, 7 e 8/fev, abrir o Trip.com",
+       "detail_pt": "A pré-reserva NÃO garante o bilhete. Se a compra falhar, o Trip.com devolve o dinheiro e avisa por e-mail. Confiram o app no dia da abertura: o pedido tem de mudar para 'Ticket issued' (emitido).",
+       "flag": "critico",
+       "when_pt": "6, 7 e 8/fev/2027"
+      },
+      {
+       "title_pt": "Sem bilhete? Plano B na ordem",
+       "detail_pt": "(1) Comprem outro trem do mesmo trecho ou entrem em 'Waitlist' (候补, lista de espera) em 2–3 trens, se aparecer. (2) Shanghai→Suzhou tem dezenas de trens por dia, também saindo de Hongqiao. (3) Em trecho curto, aceitem 无座 (em pé). Suzhou→Hangzhou: conferir se o trem sai de 苏州站 ou de 苏州北.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Trem para Shangrao: ter um trem de reserva à tarde",
+       "detail_pt": "Grade de 2026: G1501 11:03, G1657 11:20, G1375 12:10, G1451 12:32 (há ~70 trens por dia). Se o G1657 não sair, comprem o da tarde e avisem o hotel de Wangxian que a chegada pode atrasar. Preço de 2026: ¥263,5; confiram quando a venda abrir.",
+       "flag": "atencao",
+       "link_label": "Horários Hangzhou East–Shangrao",
+       "link_url": "https://huoche.cncn.com/train-%BA%BC%D6%DD%B6%AB-%C9%CF%C8%C4"
+      },
+      {
+       "title_pt": "Comprar o ingresso da Feira de Lanternas de Yuyuan",
+       "detail_pt": "Em 2026 custou ¥80. A data de 2027 sai em janeiro. Comprem no Trip.com ou Klook com o passaporte, sexta 19/fev, horário 17h–18h.",
+       "flag": "atencao",
+       "when_pt": "Jan/2027",
+       "cost_brl": 126
+      },
+      {
+       "title_pt": "Reservar o Humble Administrator's Garden",
+       "detail_pt": "Só entra com reserva. Tentem primeiro Trip.com ou Klook (não precisa de WeChat). Plano B: miniapp '苏州园林' no WeChat, que abre 7 dias antes (13/fev, horário da China = 12/fev à noite em Brasília; a hora exata não foi confirmada, olhem no miniapp). Horário 10:30, com o número do passaporte. Abre 7:30–17:00. Preço na baixa temporada: ¥50, segundo a Wander in China; confiram.",
+       "flag": "critico",
+       "when_pt": "Até 13/fev/2027",
+       "cost_brl": 76,
+       "link_label": "Wander in China",
+       "link_url": "https://www.wanderinchina.com/en/destinations/suzhou/humble-administrators-garden/"
+      },
+      {
+       "title_pt": "Reservar o Lingyin/Feilaifeng (é grátis)",
+       "detail_pt": "No WeChat ou Alipay, miniapp '杭州灵隐飞来峰', documento 'Passport', turno da manhã de 22/fev (abre às 7:30). A reserva abre 7 dias antes às 08:00 de Pequim = 14/fev às 21:00 de Brasília.",
+       "flag": "critico",
+       "when_pt": "14/fev 21:00 (Brasília)",
+       "link_label": "Lingyin oficial",
+       "link_url": "https://en.lingyinsi.org/detail_15105.html"
+      },
+      {
+       "title_pt": "NÃO comprar a Shanghai Tower com antecedência",
+       "detail_pt": "Em fevereiro é comum ter névoa. Comprem no Trip.com no próprio dia 18 (¥180), só se o topo estiver visível da rua.",
+       "flag": "dica"
+      }
+     ]
+    },
+    {
+     "id": "mala",
+     "title_pt": "7. Fazer a mala",
+     "why_pt": "Frio úmido sem aquecimento, muitas escadas e regras rígidas de alfândega e bateria.",
+     "steps": [
+      {
+       "title_pt": "Uma mala MÉDIA e uma mochila por pessoa",
+       "detail_pt": "Mala de 60–65 cm com no máximo 16–18 kg na ida. O trem-bala aceita 20 kg. Vocês vão subir escada de metrô e andar em pedra.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Deixar 1 muda de roupa na bagagem de mão",
+       "detail_pt": "Se a mala despachada atrasar, vocês têm roupa, remédios e carregador para 1–2 dias.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Priorizar a segunda pele térmica",
+       "detail_pt": "Muitos lugares fechados no sul da China não têm aquecimento. Camadas: térmica + fleece + puffer impermeável, gorro, luva e tênis impermeável.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Não levar comida proibida",
+       "detail_pt": "Na China é proibido entrar com fruta fresca, carne e embutidos, queijo, doce de leite, pão de queijo e ovos. Biscoito e chocolate lacrados podem.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Power bank só na bagagem de mão",
+       "detail_pt": "No máximo 2 por pessoa, até 100 Wh (20.000 mAh passa). No avião é proibido usar ou recarregar.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Levar 2 adaptadores universais de tomada",
+       "detail_pt": "O plugue brasileiro de 3 pinos não entra na tomada chinesa. A China usa 220 V: confiram '100–240V' no carregador.",
+       "flag": "normal"
+      }
+     ]
+    },
+    {
+     "id": "vespera",
+     "title_pt": "8. Véspera (15/fev)",
+     "why_pt": "Deixar tudo pronto em casa evita correria no aeroporto.",
+     "steps": [
+      {
+       "title_pt": "Preencher o cartão de chegada (CDAC) em casa",
+       "detail_pt": "Um por pessoa, em s.nia.gov.cn/ArrivalCardFillingPC ou no app 'NIA 12367'. Só vale nas 72h antes do pouso: pouso 10:05 de 18/02 na China = 23:05 de 17/02 em Brasília, então a janela abre às 23:05 de 14/02 (Brasília). Tirem print do QR de cada um. Plano B: wi-fi de Frankfurt.",
+       "flag": "critico",
+       "when_pt": "15/fev à noite ou 16/fev de manhã",
+       "link_label": "NIA",
+       "link_url": "https://en.nia.gov.cn/"
+      },
+      {
+       "title_pt": "Fazer o check-in online",
+       "detail_pt": "Lufthansa abre ~24–30h antes. Salvem o cartão de embarque no celular.",
+       "flag": "normal",
+       "when_pt": "15/fev à noite"
+      },
+      {
+       "title_pt": "Carregar tudo e baixar o que funciona offline",
+       "detail_pt": "Celulares e power banks 100%. Mapas offline, Chinês no Google Tradutor, prints dos endereços em chinês, das reservas e do bilhete de saída da China.",
+       "flag": "normal"
+      }
+     ]
+    },
+    {
+     "id": "embarque-gru",
+     "title_pt": "9. Dia do embarque em GRU (16/fev)",
+     "why_pt": "Voo internacional com mala despachada pede 3h de antecedência.",
+     "steps": [
+      {
+       "title_pt": "Chegar ao Terminal 3 de GRU às 15:45",
+       "detail_pt": "O LH507 sai às 18:45. No balcão da Lufthansa, mostrem passaporte, visto L ou isenção e, se pedirem, o bilhete de saída da China impresso + a reserva do 1º hotel. Guardem os comprovantes das etiquetas das malas.",
+       "flag": "critico",
+       "when_pt": "16/fev 15:45"
+      },
+      {
+       "title_pt": "Passar pelo raio-X e pela Polícia Federal",
+       "detail_pt": "Tirem o saco de líquidos e o notebook da mochila. Frasco acima de 100 ml é jogado fora. Na imigração, entreguem o passaporte ou usem o portão automático.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Não comprar líquidos no free shop",
+       "detail_pt": "Em Frankfurt passa-se de novo pelo raio-X e o saco pode ser confiscado.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Deixar o chip brasileiro sem roaming de dados",
+       "detail_pt": "A linha fica ligada para os SMS do banco, com 'Roaming de dados' DESLIGADO.",
+       "flag": "atencao"
+      }
+     ]
+    },
+    {
+     "id": "bordo",
+     "title_pt": "10. A bordo e na conexão",
+     "why_pt": "Shanghai está 11h à frente de Brasília: dormir na hora certa encurta o jet lag.",
+     "steps": [
+      {
+       "title_pt": "Em Frankfurt, seguir 'Flight Connections'",
+       "detail_pt": "Os dois voos usam o Terminal 1. A conexão tem ~5h e há novo raio-X. Brasileiros não precisam de visto em trânsito. Não saiam da área de trânsito.",
+       "flag": "normal",
+       "when_pt": "17/fev 10:15"
+      },
+      {
+       "title_pt": "Dormir no voo LH728",
+       "detail_pt": "Sai de Frankfurt às 15:15, que já são 22:15 em Shanghai. Máscara, tampão, sem álcool e sem café.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Comer ou jogar fora a comida do avião antes de pousar",
+       "detail_pt": "Maçã, banana ou sanduíche de presunto e queijo não podem entrar na China.",
+       "flag": "atencao"
+      }
+     ]
+    },
+    {
+     "id": "imprevistos-voo",
+     "title_pt": "11. Se o voo der errado",
+     "why_pt": "Um atraso derruba em cascata o hotel do dia 18, a janela do CDAC e a Shanghai Tower.",
+     "steps": [
+      {
+       "title_pt": "Perderam a conexão em Frankfurt",
+       "detail_pt": "Abram o app da Lufthansa (costuma remarcar sozinho) ou sigam 'Transfer / Lufthansa Service Center'. Não saiam da área de trânsito. Peçam voucher de comida e hotel. Pela regra europeia EU261, há direito a assistência e, conforme o atraso na chegada, indenização de até €600 por pessoa.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Avisar o hotel para não virar no-show",
+       "detail_pt": "No Trip.com, 'Message hotel': 'Our flight is delayed, we will arrive on [data]. Please keep our reservation.'",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Refazer o CDAC se o novo pouso sair da janela",
+       "detail_pt": "O cartão só vale para pouso dentro de 72h após o preenchimento. Novo voo mais tarde? Preencham de novo com o número do novo voo.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Guardar tudo para o seguro",
+       "detail_pt": "Cartões de embarque, e-mails de atraso e recibos de comida. Acionem o seguro pelo telefone 24h.",
+       "flag": "normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "momento",
+   "title_pt": "Na China",
+   "subtitle_pt": "Do avião ao hotel e como se virar no dia a dia (a programação hora a hora está em 'Dias')",
+   "sections": [
+    {
+     "id": "chegada-pvg",
+     "title_pt": "Chegada em PVG, do avião ao hotel",
+     "why_pt": "Contem ~2h do pouso até sair do aeroporto e ~3h até o hotel.",
+     "steps": [
+      {
+       "title_pt": "Ligar a linha 'Viagem' do eSIM ao pousar",
+       "detail_pt": "Ajustes > Celular > Viagem: ativar, com roaming de dados ligado, e escolher essa linha para dados. Reserva: wi-fi '#AirportPVG-Free-WiFi', login pela foto do passaporte.",
+       "flag": "normal",
+       "when_pt": "18/fev ~10:05"
+      },
+      {
+       "title_pt": "Seguir 'Arrivals / 入境'",
+       "detail_pt": "NÃO entrem em 'International Transfer / 国际中转'. Na 'Health Quarantine / 卫生检疫', mostrem o CIVP se pedirem.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Colher as digitais no quiosque",
+       "detail_pt": "'English', escaneiem o passaporte e ponham os dedos no leitor. Quem não fez o CDAC pode fazer pelo QR na parede.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Ir para a fila 'Foreigners / 外国人'",
+       "detail_pt": "Vão juntos. Entreguem passaporte e QR do CDAC, com o bilhete de saída e a reserva do hotel abertos no celular. Se perguntarem: 'Tourism. I leave China on [data] to [país].'",
+       "flag": "normal",
+       "when_pt": "20–60 min de fila"
+      },
+      {
+       "title_pt": "Pegar as malas",
+       "detail_pt": "Procurem o número do voo no painel 'Baggage Claim / 行李提取'. Carrinho é grátis.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Mala não apareceu? Resolver ANTES da alfândega",
+       "detail_pt": "Vão ao balcão 'Lost & Found / 行李查询' na área das esteiras. Peçam o comprovante PIR com número, deem o endereço do hotel em chinês e tirem foto do comprovante. Depois acionem o seguro.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Sacar dinheiro ANTES de tentar o Didi",
+       "detail_pt": "Caixa do Bank of China (中国银行) com o cartão de débito: saquem ~¥1.000. Se o Alipay falhar, o táxi oficial aceita dinheiro.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Passar pelo canal verde da alfândega",
+       "detail_pt": "Sigam 'Nothing to Declare / 无申报通道'. As malas passam no raio-X e pronto.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Testar o Alipay antes de sair",
+       "detail_pt": "Comprem uma água na FamilyMart ou Lawson (menos de ¥200). Se falhar, abram o app do banco para liberar o alerta de fraude. Não tentem várias vezes seguidas.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Ignorar quem oferecer 'Taxi?'",
+       "detail_pt": "Aliciadores, às vezes de colete, cobram 2 a 3 vezes o preço. Digam 'Bù yào, xièxie' e sigam.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Ir até o Didi no estacionamento P2",
+       "detail_pt": "No T2, sigam as placas 网约车 até o P2, nível B2. SÓ LÁ peçam o carro (ver 'Como pedir Didi'). Destino: 上海南京路步行街锦江都城南京饭店. ~¥150–220, ~60 min. Plano B: metrô Linha 2 (¥7) até East Nanjing Road, saída 1.",
+       "flag": "dica",
+       "cost_brl": 150
+      },
+      {
+       "title_pt": "Querem banho antes do quarto?",
+       "detail_pt": "PVG tem chuveiro grátis: perguntem no One-Stop Center (T2, nível 2, em frente à Saída 2A). No hotel, sem quarto pronto, peçam para usar o banheiro ou a academia.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "No hotel, entregar os 2 passaportes",
+       "detail_pt": "O hotel registra vocês na polícia (obrigatório). Se o quarto não estiver pronto: 可以寄存行李吗？ (podem guardar a mala?)",
+       "flag": "normal"
+      }
+     ]
+    },
+    {
+     "id": "didi",
+     "title_pt": "Como pedir Didi",
+     "why_pt": "É o 'Uber' chinês; vocês vão usar várias vezes, principalmente com malas.",
+     "steps": [
+      {
+       "title_pt": "Abrir o Didi",
+       "detail_pt": "Alipay > buscar 'DiDi' > abrir o miniapp e permitir localização. Ou o app 'DiDi Rider' (em inglês), instalado no Brasil.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Colar o destino em chinês",
+       "detail_pt": "Em 'Where to? / 你要去哪儿', COLEM o nome em chinês deste guia e escolham o 1º resultado cujo endereço bata.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Escolher 'Express / 快车'",
+       "detail_pt": "É o mais barato. O preço aparece antes de confirmar e é cobrado sozinho no final.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Anotar a PLACA e a cor do carro",
+       "detail_pt": "Confirmem o ponto de embarque no mapa. Só entrem no carro com a placa certa.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Motorista ligou? Não atendam",
+       "detail_pt": "Respondam pelo chat do app (ele traduz): 'I am at the pickup point' ou 我在上车点. Cancelem logo se precisarem; depois de alguns minutos pode haver taxa.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Agendar corrida cedo",
+       "detail_pt": "Para 07:05 do dia 22: na véspera, toquem em '预约 / Schedule' e marquem a hora. Ou peçam na recepção do hotel.",
+       "flag": "dica"
+      }
+     ]
+    },
+    {
+     "id": "metro",
+     "title_pt": "Metrô e trem no dia a dia",
+     "why_pt": "É o jeito mais barato e previsível de circular nas 3 cidades.",
+     "steps": [
+      {
+       "title_pt": "Pagar com o QR do Alipay",
+       "detail_pt": "Alipay > 'Transport' > cidade (Shanghai, Suzhou ou Hangzhou) > QR. Encostem o QR no leitor na entrada e na saída. Em Shanghai, também dá para encostar o cartão. Tarifa ¥3–9.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Sem Alipay: bilhete na máquina",
+       "detail_pt": "Na máquina azul, toquem 'English', escolham a estação de destino e paguem com notas de ¥10 ou ¥20. Sai um cartãozinho: encostem na entrada e enfiem na fenda da catraca na saída. Ou comprem no guichê do funcionário. Em Suzhou e Hangzhou, cartão estrangeiro por aproximação não foi confirmado.",
+       "flag": "atencao",
+       "link_label": "Bilhete de metrô",
+       "link_url": "https://www.travelchinaguide.com/cityguides/shanghai/transportation/subway-ticket.htm"
+      },
+      {
+       "title_pt": "Passar as bolsas no raio-X",
+       "detail_pt": "Toda estação tem raio-X. Não há regra de 100 ml: às vezes pedem um gole da garrafa.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Pegar o último metrô até 22:15",
+       "detail_pt": "O último trem passa ~22:30–23:00. Perderam? Didi, ~50% mais caro de madrugada.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Evitar horário de pico com mala",
+       "detail_pt": "7:30–9:30 e 17:30–19:00 os trens lotam. Com mala, prefiram Didi.",
+       "flag": "dica"
+      }
+     ]
+    },
+    {
+     "id": "pagar-comer",
+     "title_pt": "Pagar, comer e banheiro",
+     "why_pt": "Restaurantes pequenos quase só aceitam QR code, e banheiro chinês tem pegadinhas.",
+     "steps": [
+      {
+       "title_pt": "Pedir pelo QR da mesa",
+       "detail_pt": "Escaneiem com o Alipay, escolham pelas fotos e paguem no celular. Traduzam com a câmera do Google Tradutor. Não se dá gorjeta.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Banheiro: vaso de agachar é comum",
+       "detail_pt": "Procurem a porta com 坐便 (vaso comum) ou o banheiro para deficientes. Onde houver cesto, joguem o papel nele. Levem lenço de papel. Os melhores ficam em shoppings e estações.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Pegar água quente grátis",
+       "detail_pt": "Estações e trens-bala têm água quente grátis (开水). O banheiro do trem fica no fim do vagão.",
+       "flag": "dica"
+      }
+     ]
+    },
+    {
+     "id": "golpes",
+     "title_pt": "Golpes comuns",
+     "why_pt": "A região é segura; o risco real é perder dinheiro por simpatia.",
+     "steps": [
+      {
+       "title_pt": "Recusar convites para chá, bar ou 'exposição de arte'",
+       "detail_pt": "Na Nanjing Road, no Bund e no West Lake, jovens simpáticos que falam inglês convidam para 'cerimônia do chá' e a conta chega a ¥3.000–10.000. Digam 'Bù yào, xièxie' (不要，谢谢) e continuem andando.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "No táxi, pedir para ligar o taxímetro",
+       "detail_pt": "Digam '请打表' (qǐng dǎbiǎo) e recusem preço fechado.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Em Longjing, perguntar o preço por 500 g antes de provar",
+       "detail_pt": "Em fevereiro não há colheita: 'chá novo da safra' é mentira. Comprem só com preço escrito e etiqueta ou QR.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "No Lingyin, não comprar ingresso nem incenso na porta",
+       "detail_pt": "A entrada é grátis desde dez/2025, com reserva, e o incenso é dado lá dentro.",
+       "flag": "atencao"
+      }
+     ]
+    },
+    {
+     "id": "emergencia",
+     "title_pt": "Emergência e segurança",
+     "why_pt": "Ter os números à mão resolve rápido.",
+     "steps": [
+      {
+       "title_pt": "Salvar os números de emergência",
+       "detail_pt": "Polícia 110, ambulância 120, turismo em inglês 12301. E o telefone 24h do seguro.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Guardar o cartão do hotel com endereço em chinês",
+       "detail_pt": "Peguem na recepção e fotografem. Perdidos? Mostrem a um taxista ou policial.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Combinar um ponto de encontro em multidões",
+       "detail_pt": "Na feira de lanternas e no Bund, saídas de metrô podem fechar. Ponto fixo (ex.: ponte em zigue-zague de Yuyuan). Mochila na frente.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Perdeu o passaporte? Consulado do Brasil em Xangai",
+       "detail_pt": "West Beijing Road 968, Garden Square, 10º andar (salas 1006B-1008). Tel. +86 21 6437 0110; plantão +86 131 6623 1312; brasileiros.xangai@itamaraty.gov.br. Seg a sex 9h30–12h, com agendamento no e-consular. Façam também boletim na polícia (110). Confiram os dados antes de viajar.",
+       "flag": "atencao",
+       "link_label": "Consulado em Xangai",
+       "link_url": "https://www.gov.br/mre/pt-br/consulado-xangai/o-consulado/atendimento-ao-publico-fale-conosco"
+      },
+      {
+       "title_pt": "Cuidado com scooter elétrica",
+       "detail_pt": "São silenciosas, andam nas calçadas, e carros viram à direita no sinal vermelho. É o maior risco à noite.",
+       "flag": "atencao"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pos",
+   "title_pt": "Saídas entre as cidades e fim do módulo",
+   "subtitle_pt": "Check-outs, malas, trens-bala e o que conferir antes de seguir para Shangrao e Wangxian Valley",
+   "sections": [
+    {
+     "id": "saida-shanghai",
+     "title_pt": "Shanghai → Suzhou (sábado 20/fev)",
+     "why_pt": "O trem das 09:00 não espera, e o portão fecha 5 min antes.",
+     "steps": [
+      {
+       "title_pt": "Fazer o check-out às 08:15",
+       "detail_pt": "Não esqueçam nada no cofre nem carregadores na tomada. Peçam para liberar a caução.",
+       "flag": "normal",
+       "when_pt": "20/fev 08:15"
+      },
+      {
+       "title_pt": "Pegar Didi até a Shanghai Railway Station (上海站)",
+       "detail_pt": "Com malas, Didi (~¥20–25, ~15 min). Sem mala pesada: metrô L2 até People's Square e L1 sentido Fujin Road por 3 paradas (Xinzha Rd, Hanzhong Rd, Shanghai Railway Station).",
+       "flag": "dica",
+       "cost_brl": 20
+      },
+      {
+       "title_pt": "Saber que o passaporte é o bilhete",
+       "detail_pt": "Não há bilhete de papel. No pedido do Trip.com aparecem o vagão (车厢, ex.: 05) e o assento (ex.: 08F): tirem print disso.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Entrar na estação com o passaporte",
+       "detail_pt": "Tentem primeiro a catraca automática com o passaporte aberto na página da foto. Se não abrir, vão para a fila 人工通道. Depois raio-X, e no telão achem o G7006 e o portão (检票口).",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Esperar no número do vagão marcado no chão",
+       "detail_pt": "O trem para 1–2 min. Mala média no bagageiro de cima ou atrás da última fileira. Levantem 3–5 min antes de Suzhou.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Descer em Suzhou (苏州站) e seguir 网约车",
+       "detail_pt": "Didi até '苏州观前街平江路亚朵S酒店' (~¥20). O hotel guarda as malas até o check-in.",
+       "flag": "normal"
+      }
+     ]
+    },
+    {
+     "id": "suzhou-hangzhou",
+     "title_pt": "Suzhou → Hangzhou (domingo 21/fev)",
+     "why_pt": "Domingo de volta do feriado: estação cheia.",
+     "steps": [
+      {
+       "title_pt": "Check-out às 08:15 e Didi até 苏州站",
+       "detail_pt": "Cheguem ~08:35 para o G7587 das 09:19. Comprem lanche na FamilyMart da estação.",
+       "flag": "normal",
+       "when_pt": "21/fev 08:15"
+      },
+      {
+       "title_pt": "Trem de reserva: conferir a estação de saída",
+       "detail_pt": "G7505 (08:25) e G7349 (08:42) saem de 苏州北 (Suzhou North), a ~25–30 min de Didi (~¥60) do centro, não de 苏州站. Se trocarem de trem, confiram a estação no Trip.com.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Em Hangzhou East, seguir '地铁 1号线'",
+       "detail_pt": "Linha 1 (vermelha), sentido 湘湖 Xianghu, até 龙翔桥 Longxiangqiao. Sem troca, ~20 min, ¥4.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Lavar roupa no Atour de Hangzhou",
+       "detail_pt": "Lavanderia grátis. Última chance antes de Wangxian: coloquem ao voltar à noite.",
+       "flag": "dica"
+      }
+     ]
+    },
+    {
+     "id": "saida-final",
+     "title_pt": "Hangzhou East → Shangrao (segunda 22/fev)",
+     "why_pt": "Manhã apertada: Lingyin na abertura, malas e trem às 11:20.",
+     "steps": [
+      {
+       "title_pt": "Check-out às 06:50 e malas na recepção",
+       "detail_pt": "Fechem a conta e deixem as malas (寄存行李). Didi agendado para 07:05 (~25 min, ~¥35).",
+       "flag": "critico",
+       "when_pt": "22/fev 06:50"
+      },
+      {
+       "title_pt": "Chegar ao Lingyin às 7:30 e sair às 09:10",
+       "detail_pt": "O portão só abre às 7:30. Primeiro Feilaifeng, depois os salões. Às 09:10 peçam Didi de volta ao hotel (~35 min, ~¥40).",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Didi com as malas direto à estação",
+       "detail_pt": "~09:45 no hotel, pegar malas, ~09:55 Didi até '杭州东站' (~¥35, ~30 min, sem escada de metrô). Chegada ~10:25.",
+       "flag": "critico"
+      },
+      {
+       "title_pt": "Plano B: trocar para o G1375 sem esperar",
+       "detail_pt": "Se às 09:15 ainda estiverem no templo, troquem no Trip.com o G1657 (11:20) pelo G1375 (12:10) na hora. O portão do G1657 FECHA às 11:15.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Almoçar na estação ou no trem",
+       "detail_pt": "Marmita a bordo ~¥40–65. Viagem até Shangrao ~1h40, chegada ~13:01.",
+       "flag": "normal"
+      }
+     ]
+    },
+    {
+     "id": "checklist",
+     "title_pt": "Conferir antes de deixar a região",
+     "why_pt": "Wangxian Valley é mais isolado e mais frio; à noite pode chegar perto de 0 °C.",
+     "steps": [
+      {
+       "title_pt": "Confirmar o transporte Shangrao → Wangxian e o hotel",
+       "detail_pt": "Confiram a reserva, o endereço em chinês e se o hotel busca na estação de Shangrao.",
+       "flag": "critico",
+       "when_pt": "21/fev à noite"
+      },
+      {
+       "title_pt": "Carregar celulares e ver os GB do eSIM",
+       "detail_pt": "Tudo carregado na noite do dia 21. Saldo de dados no app da Nomad.",
+       "flag": "normal"
+      },
+      {
+       "title_pt": "Conferir cauções e recibos",
+       "detail_pt": "No app do cartão e no Alipay, vejam se as cauções de Shanghai e Suzhou voltaram. Se não, mensagem pelo Trip.com. Guardem recibos para o seguro.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Garantir dinheiro vivo",
+       "detail_pt": "~¥500 para o vale, onde barracas podem não aceitar QR. Saquem no Bank of China em Hangzhou.",
+       "flag": "dica"
+      },
+      {
+       "title_pt": "Conferir a data de saída da China",
+       "detail_pt": "Com isenção, limite oficial 20/03/2027; o bilhete de saída deve ser até 19/03.",
+       "flag": "atencao"
+      },
+      {
+       "title_pt": "Separar a roupa mais quente na mochila",
+       "detail_pt": "Térmica, gorro e luva à mão para a noite das luzes em Wangxian.",
+       "flag": "dica"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "flights": [
+  {
+   "label_pt": "Lufthansa via Frankfurt: melhor encaixe",
+   "airline": "Lufthansa",
+   "route": "GRU → FRA → PVG (LH507 + LH728); volta Tóquio → FRA → GRU",
+   "depart": "16/fev 18:45 (GRU)",
+   "arrive": "18/fev 10:05 (PVG, Terminal 2)",
+   "total_h": 28.3,
+   "layover_pt": "5h em Frankfurt, sem trocar de terminal (T1)",
+   "price_brl_min": 6000,
+   "price_brl_max": 9000,
+   "change_pt": "Light: não reembolsa e remarca por ~€100 + diferença. Classic: remarca com taxa. Flex: alteração grátis e, desde jun/2026, reembolso sem taxa em várias rotas.",
+   "bags_pt": "Light: SEM mala despachada. Classic e Flex: 1 mala de 23 kg + mão de 8 kg.",
+   "pros_pt": "Chega de manhã no dia 18. Rota pela Europa, sem risco do Golfo. Volta do Japão fácil com parceiras da Lufthansa. Promoções recentes de ~R$5.260 ida e volta.",
+   "cons_pt": "Trecho para Xangai num 747 antigo. O preço da Light engana. Neve em Frankfurt pode atrasar. Preços de fev/2027 são estimativa.",
+   "recommended": true,
+   "url": "https://info.flightmapper.net/flight/Lufthansa_LH_728"
+  },
+  {
+   "label_pt": "KLM via Amsterdã: plano B com chegada de manhã",
+   "airline": "KLM",
+   "route": "GRU → AMS → PVG (KL792 + KL895)",
+   "depart": "16/fev ~20:59 (GRU)",
+   "arrive": "18/fev 09:25 (PVG, Terminal 1)",
+   "total_h": 25.5,
+   "layover_pt": "~1h45 em Amsterdã (apertado no inverno)",
+   "price_brl_min": 6000,
+   "price_brl_max": 9000,
+   "change_pt": "Light e Standard: alteração US$180 + diferença, cancelamento US$240. Flex: alteração grátis.",
+   "bags_pt": "Light sem mala despachada. Standard e Flex: 1 mala de 23 kg.",
+   "pros_pt": "Chega de manhã, rota europeia e promoções frequentes. No mesmo bilhete, a KLM remarca se perderem a conexão.",
+   "cons_pt": "Conexão curta com risco de neve. Dias de operação variam.",
+   "recommended": true,
+   "url": "https://info.flightmapper.net/flight/KLM_KL_895"
+  },
+  {
+   "label_pt": "Swiss via Zurique: a mais rápida",
+   "airline": "Swiss",
+   "route": "GRU → ZRH → PVG (LX93 + LX188)",
+   "depart": "16/fev ~19:20 (GRU)",
+   "arrive": "18/fev ~07:35–08:00 (PVG)",
+   "total_h": 25.3,
+   "layover_pt": "~2h45 em Zurique (aeroporto pequeno e fácil)",
+   "price_brl_min": 6000,
+   "price_brl_max": 9000,
+   "change_pt": "Mesmas regras do grupo Lufthansa (Light, Classic, Flex).",
+   "bags_pt": "Light sem mala. Classic: 1 mala de 23 kg.",
+   "pros_pt": "Menor tempo total e conexão simples.",
+   "cons_pt": "Grade de inverno 2026/27 não confirmada. Chegando às 7h, muitas horas sem quarto.",
+   "recommended": false,
+   "url": "https://info.flightmapper.net/flight/Swiss_LX_188"
+  },
+  {
+   "label_pt": "Turkish via Istambul: chega no fim da tarde",
+   "airline": "Turkish Airlines",
+   "route": "GRU → IST → PVG (TK16 + TK26)",
+   "depart": "17/fev 04:10 (estar em GRU na NOITE de 16)",
+   "arrive": "18/fev 17:10 (PVG)",
+   "total_h": 26,
+   "layover_pt": "~3h em Istambul (aeroporto enorme)",
+   "price_brl_min": 6000,
+   "price_brl_max": 9000,
+   "change_pt": "EcoFly: restrita para remarcar e reembolsar. ExtraFly: mais flexível, com taxas variáveis.",
+   "bags_pt": "EcoFly: SEM mala (mala extra ~R$1.000). ExtraFly: 1 mala de 23 kg.",
+   "pros_pt": "Boa comida a bordo e preço competitivo.",
+   "cons_pt": "Perde a tarde do dia 18. O TK16 atrasa com frequência. A data do bilhete confunde.",
+   "recommended": false,
+   "url": "https://info.flightmapper.net/flight/Turkish_Airlines_TK_26"
+  },
+  {
+   "label_pt": "Qatar via Doha: mais conforto, mais risco",
+   "airline": "Qatar Airways",
+   "route": "GRU → DOH → PVG (QR774 + QR870)",
+   "depart": "17/fev ~00:30–01:55 (estar em GRU na NOITE de 16)",
+   "arrive": "18/fev 14:40 (PVG, Terminal 2)",
+   "total_h": 26.5,
+   "layover_pt": "~5h em Doha",
+   "price_brl_min": 7000,
+   "price_brl_max": 11000,
+   "change_pt": "Lite: não altera. Classic: altera com taxa. Convenience e Comfort: alteração grátis (paga-se a diferença).",
+   "bags_pt": "Lite: 1 mala de 23 kg. Classic ou superior: 2 malas de 23 kg.",
+   "pros_pt": "Melhor serviço de bordo, 2 malas, aeroporto excelente.",
+   "cons_pt": "A guerra no Oriente Médio suspendeu voos por meses em 2026. Chega à tarde. Só com tarifa que permita remarcar.",
+   "recommended": false,
+   "url": "https://www.melhoresdestinos.com.br/qatar-retomada-voos-sao-paulo-doha.html"
+  },
+  {
+   "label_pt": "Air China via Madri e Pequim: barata, mas complicada",
+   "airline": "Air China",
+   "route": "GRU → MAD → PEK (CA898) + voo ou trem PEK → Shanghai",
+   "depart": "16/fev ~09:30 (GRU, de manhã)",
+   "arrive": "17/fev ~19:30 em Pequim; Shanghai só na noite de 17 ou manhã de 18",
+   "total_h": 33,
+   "layover_pt": "Parada em Madri + 3–5h em Pequim, com imigração e malas despachadas de novo",
+   "price_brl_min": 5500,
+   "price_brl_max": 7500,
+   "change_pt": "Regras variam por classe. Confiram no airchina.com.br antes de pagar.",
+   "bags_pt": "2 malas de 23 kg.",
+   "pros_pt": "Costuma ser a mais barata e inclui 2 malas.",
+   "cons_pt": "NÃO chega em Shanghai; imigração em Pequim; sai de manhã; grade de inverno não confirmada.",
+   "recommended": false,
+   "url": "https://info.flightmapper.net/flight/Air_China_CA_898"
+  }
+ ],
+ "airport_transport": [
+  {
+   "mode_pt": "Didi (carro por app)",
+   "price_brl_person": 75,
+   "time_min": 60,
+   "how_pt": "Saquem dinheiro antes. No T2, placas 网约车 até o estacionamento P2 (nível B2). Só lá peçam o carro (passo a passo em 'Como pedir Didi'). Destino: 上海南京路步行街锦江都城南京饭店. ~¥150–220 por carro, cobrado no app.",
+   "verdict_pt": "A melhor opção depois de 28h de voo: preço fixo, porta a porta, sem escadas.",
+   "recommended": true
+  },
+  {
+   "mode_pt": "Metrô Linha 2 direto",
+   "price_brl_person": 5.5,
+   "time_min": 75,
+   "how_pt": "Placas 地铁 / Metro até o subsolo B1, entre T1 e T2. Paguem com QR do Alipay, cartão por aproximação ou bilhete na máquina com notas (¥7). Desçam em East Nanjing Road (南京东路), saída 1, a 2 min do Metropolo. Se o trem terminar em Guanglan Road, troquem na mesma plataforma.",
+   "verdict_pt": "Barato (~R$11 os dois) e sentado desde o aeroporto. Vale se as malas forem leves.",
+   "recommended": true
+  },
+  {
+   "mode_pt": "Táxi oficial (fila do aeroporto)",
+   "price_brl_person": 79,
+   "time_min": 60,
+   "how_pt": "Placas 出租车 / Taxi até a fila oficial (T2: portões 25/26). Mostrem o endereço em chinês, digam '请打表' e paguem com Alipay ou DINHEIRO. ~¥180–220.",
+   "verdict_pt": "Plano B se o Alipay ou o Didi falharem. Fila de 0 a 60 min.",
+   "recommended": false
+  },
+  {
+   "mode_pt": "Maglev + metrô Linha 2",
+   "price_brl_person": 37,
+   "time_min": 45,
+   "how_pt": "Placas 磁浮 / Maglev. No balcão, mostrem o cartão de embarque do dia e paguem ¥40 (sem ele, ¥50). Vai só até Longyang Road; de lá, 5–10 min a pé até a Linha 2.",
+   "verdict_pt": "Passeio legal (300 km/h), mas a baldeação com malas não compensa no dia da chegada.",
+   "recommended": false
+  },
+  {
+   "mode_pt": "Ônibus do aeroporto",
+   "price_brl_person": 19,
+   "time_min": 75,
+   "how_pt": "Placas 机场巴士 / Airport Bus. A Linha 2 vai até Jing'an Temple (~¥24); depois ainda é preciso metrô ou táxi.",
+   "verdict_pt": "Não recomendado: não para perto do hotel.",
+   "recommended": false
+  }
+ ],
+ "hotels": [
+  {
+   "city": "Shanghai",
+   "name": "Metropolo Nanjing Hotel",
+   "name_zh": "上海南京路步行街锦江都城南京饭店",
+   "area_pt": "East Nanjing Road, de frente para a rua de pedestres (200 Shanxi South Road)",
+   "metro_pt": "East Nanjing Road (Linhas 2 e 10), saída 1, a 2 min. A Linha 2 vem direto do PVG",
+   "rating_pt": "Trip.com 9,5–9,6/10 (~6.800 avaliações)",
+   "price_brl_night_couple": 474,
+   "pick": "principal",
+   "why_pt": "Metrô do aeroporto na porta, Bund a 10 min a pé e Yu Garden a 1 parada pela Linha 10. Check-in às 14h e guarda malas grátis.",
+   "watch_pt": "Acima do teto de R$400. Isolamento acústico fraco e quartos básicos pequenos: peçam 'Business'. Café ¥98 por pessoa. Preço é estimativa.",
+   "url": "https://www.trip.com/hotels/shanghai-hotel-detail-756484/metropolo-nanjing-hotel-shanghai/",
+   "lat": 31.2392,
+   "lng": 121.4778
+  },
+  {
+   "city": "Shanghai",
+   "name": "Ji Hotel People's Square",
+   "name_zh": "全季酒店(上海人民广场店)",
+   "area_pt": "People's Square (500 Xizang Middle Road)",
+   "metro_pt": "People's Square (Linhas 1, 2 e 8), a 4 min",
+   "rating_pt": "Trip.com 9,5/10 (~9.400 avaliações)",
+   "price_brl_night_couple": 332,
+   "pick": "economica",
+   "why_pt": "Dentro do orçamento, nota alta com muitas avaliações, Linha 2 do aeroporto a 4 min.",
+   "watch_pt": "Quarto de 13–18 m² e check-in só às 16h. Escolham 'Has window'. Não confundam com o Ji da Fujian Middle Road (nota 8,9).",
+   "url": "https://www.trip.com/hotels/shanghai-hotel-detail-36184335/ji-hotel/",
+   "lat": 31.2365,
+   "lng": 121.4725
+  },
+  {
+   "city": "Shanghai",
+   "name": "Atour Hotel People's Square Nanjing Road",
+   "name_zh": "上海人民广场南京路步行街亚朵酒店",
+   "area_pt": "People's Square / Nanjing Road (586 Ningbo Road)",
+   "metro_pt": "People's Square (Linhas 1, 2 e 8), a 6 min",
+   "rating_pt": "Trip.com 9,6/10 (~2.700 avaliações)",
+   "price_brl_night_couple": 514,
+   "pick": "alternativa",
+   "why_pt": "Quartos grandes (28–36 m²), lavanderia grátis e check-in às 14h.",
+   "watch_pt": "Acima do orçamento. Bund a ~20 min a pé. Poucos elevadores.",
+   "url": "https://us.trip.com/hotels/shanghai-hotel-detail-122188561/atour-hotel-nanjing-road-pedestrian-street-shanghai-people-s-square/",
+   "lat": 31.24,
+   "lng": 121.4745
+  },
+  {
+   "city": "Shanghai",
+   "name": "Atour X Hotel The Bund Nanjing East Road",
+   "name_zh": "上海外滩南京东路地铁站亚朵X酒店",
+   "area_pt": "Bund / East Nanjing Road (130 Hankou Road)",
+   "metro_pt": "East Nanjing Road (Linhas 2 e 10), a 6 min",
+   "rating_pt": "Trip.com 9,5/10 (~3.700 avaliações)",
+   "price_brl_night_couple": 435,
+   "pick": "alternativa",
+   "why_pt": "Bund a 5 min a pé, bom para o pôr do sol. Limpo e moderno.",
+   "watch_pt": "Quarto pequeno (20–23 m²) e barulho.",
+   "url": "https://us.trip.com/hotels/shanghai-hotel-detail-54671492/atour-x-hotel-shanghai-the-bund-nanjing-east-road-subway-station/",
+   "lat": 31.2375,
+   "lng": 121.4855
+  },
+  {
+   "city": "Shanghai",
+   "name": "Holiday Inn Shanghai Nanjing Road by IHG",
+   "name_zh": "上海南京路步行街假日酒店",
+   "area_pt": "People's Square / Nanjing Road (595 Jiujiang Road)",
+   "metro_pt": "People's Square (Linhas 1, 2 e 8), a 5 min",
+   "rating_pt": "Trip.com 9,5/10 (~4.700 avaliações)",
+   "price_brl_night_couple": 633,
+   "pick": "conforto",
+   "why_pt": "Quartos grandes (30–48 m²), todos com janela, padrão de rede internacional.",
+   "watch_pt": "Bem acima do orçamento. Caução de ¥1.000 no cartão e café de ¥138.",
+   "url": "https://us.trip.com/hotels/shanghai-hotel-detail-72812393/holiday-inn-shanghai-nanjing-road-by-ihg/",
+   "lat": 31.236,
+   "lng": 121.4745
+  },
+  {
+   "city": "Suzhou",
+   "name": "Atour S Hotel Guanqian Pingjiang Road",
+   "name_zh": "苏州观前街平江路亚朵S酒店",
+   "area_pt": "Guanqian / Pingjiang, centro antigo (Lindun Road 101)",
+   "metro_pt": "Xuanqiaoxiang (Linha 6) a 250 m; Lindun Lu (Linha 1) a 350 m",
+   "rating_pt": "Trip.com 9,5/10 (~1.800 avaliações), inaugurado em 2026",
+   "price_brl_night_couple": 800,
+   "pick": "principal",
+   "why_pt": "Rua de carros: o táxi para na porta com a mala. Pingjiang Road a 400 m, 1–2 paradas do jardim.",
+   "watch_pt": "No sábado das Lanternas custa R$650–900, o dobro do teto. Alguns quartos NÃO têm janela: peçam 有窗. Obra ao lado.",
+   "url": "https://us.trip.com/hotels/suzhou-hotel-detail-133626172/atour-s-hotel-suzhou-guanqian-pingjiang-road/",
+   "lat": 31.3112,
+   "lng": 120.6264
+  },
+  {
+   "city": "Suzhou",
+   "name": "Anyi Hotel Guanqian Street Pingjiang Road",
+   "name_zh": "安逸酒店(观前街平江路店)",
+   "area_pt": "Pingjiang (Zhenzhu Lane 9)",
+   "metro_pt": "Chayuanchang, a 480 m",
+   "rating_pt": "Trip.com 9,8/10 (~3.100 avaliações)",
+   "price_brl_night_couple": 560,
+   "pick": "economica",
+   "why_pt": "A mais barata boa no feriado (~R$450–700). Novo (2025), silencioso, lavanderia grátis.",
+   "watch_pt": "Fica numa viela: é preciso arrastar a mala um trecho. Banheiro pequeno.",
+   "url": "https://www.trip.com/hotels/suzhou-hotel-detail-127928998/anyi-hotel/",
+   "lat": 31.3135,
+   "lng": 120.628
+  },
+  {
+   "city": "Suzhou",
+   "name": "Yiman Hotel Pingjiang Road",
+   "name_zh": "艺漫丨YIMAN·HOTEL酒店(苏州观前街平江路店)",
+   "area_pt": "Dentro da própria Pingjiang Road (nº 189, 2º andar)",
+   "metro_pt": "Xiangmen, a ~10 min a pé",
+   "rating_pt": "Trip.com 9,2/10 (~1.065 avaliações)",
+   "price_brl_night_couple": 650,
+   "pick": "alternativa",
+   "why_pt": "Vista de canal: saem na porta e estão no meio das lanternas.",
+   "watch_pt": "Carro não entra: 200–300 m de pedra com a mala. Paredes finas, só 15 quartos.",
+   "url": "https://www.trip.com/hotels/suzhou-hotel-detail-29592930/yiman-hotel/",
+   "lat": 31.3158,
+   "lng": 120.6297
+  },
+  {
+   "city": "Hangzhou",
+   "name": "Atour Hotel West Lakeside Longxiangqiao",
+   "name_zh": "杭州西湖湖滨龙翔桥地铁站亚朵酒店",
+   "area_pt": "Hubin, ao lado do shopping IN77 (Qingchun Road 221)",
+   "metro_pt": "Longxiangqiao (Linha 1) a 460 m, direto de Hangzhou East",
+   "rating_pt": "Trip.com 9,6/10 (~935 avaliações), aberto em 2025",
+   "price_brl_night_couple": 520,
+   "pick": "principal",
+   "why_pt": "West Lake a ~300 m, metrô direto para a estação, lavanderia grátis.",
+   "watch_pt": "Acima do orçamento. Ainda tem poucas avaliações.",
+   "url": "https://sg.trip.com/hotels/hangzhou-hotel-detail-132003508/atour-hotel-hangzhou-west-lakeside-longxiangqiao-subway-station/",
+   "lat": 30.2602,
+   "lng": 120.1655
+  },
+  {
+   "city": "Hangzhou",
+   "name": "JI Hotel West Lake Hubin Pedestrian Street",
+   "name_zh": "全季酒店(杭州西湖湖滨步行街店)",
+   "area_pt": "Hubin (Qingchun Road 213)",
+   "metro_pt": "Longxiangqiao (Linha 1), a ~400 m",
+   "rating_pt": "Trip.com 9,6/10 (~4.000 avaliações)",
+   "price_brl_night_couple": 330,
+   "pick": "economica",
+   "why_pt": "Dentro do orçamento, vizinho do Atour, rede chinesa confiável (Huazhu).",
+   "watch_pt": "Quarto pequeno, poucas tomadas. O 'a partir de US$17' do site é isca.",
+   "url": "https://us.trip.com/hotels/hangzhou-hotel-detail-57250579/ji-hotel/",
+   "lat": 30.2603,
+   "lng": 120.1658
+  },
+  {
+   "city": "Hangzhou",
+   "name": "Atour X Hotel West Lake Hubin Yan'an Road",
+   "name_zh": "杭州西湖湖滨延安路亚朵X酒店",
+   "area_pt": "Hubin (Yan'an Road 306)",
+   "metro_pt": "Longxiangqiao (Linha 1), a 260 m",
+   "rating_pt": "Trip.com 9,0/10 (~4.750 avaliações)",
+   "price_brl_night_couple": 450,
+   "pick": "alternativa",
+   "why_pt": "Colado no metrô, táxi na porta, café da manhã farto.",
+   "watch_pt": "Prédio mais velho, com queixas de barulho e manutenção.",
+   "url": "https://us.trip.com/hotels/hangzhou-hotel-detail-1472021/atour-x-hotel-hangzhou-westlake-hubin-yan-an-road/",
+   "lat": 30.2585,
+   "lng": 120.1605
+  }
+ ],
+ "days": [
+  {
+   "date": "2027-02-18",
+   "weekday_pt": "quinta-feira",
+   "city": "Shanghai",
+   "title_pt": "Chegada, Nanjing Road, Bund ao pôr do sol e Shanghai Tower",
+   "stops": [
+    {
+     "time": "10:05",
+     "place_pt": "Pouso no Aeroporto de Pudong (PVG), Terminal 2",
+     "place_zh": "上海浦东国际机场",
+     "lat": 31.1443,
+     "lng": 121.8053,
+     "how_pt": "Voo LH728. Imigração, malas, saque, alfândega e teste do Alipay (~2h)",
+     "mode": "aviao",
+     "stay_min": 110,
+     "cost_brl_person": 0,
+     "tip_pt": "eSIM ligado, QR do CDAC, bilhete de saída e CIVP à mão. Saquem ~¥1.000 no Bank of China."
+    },
+    {
+     "time": "12:05",
+     "place_pt": "Ponto de Didi no estacionamento P2 (nível B2)",
+     "place_zh": "浦东机场T2 P2停车库 网约车上车点",
+     "lat": 31.147,
+     "lng": 121.804,
+     "how_pt": "A pé pelo saguão, placas 网约车 (~10 min)",
+     "mode": "a_pe",
+     "stay_min": 10,
+     "cost_brl_person": 0,
+     "tip_pt": "Peçam o carro só ao chegar ao ponto (ver 'Como pedir Didi'). Ignorem quem oferecer 'Taxi?'."
+    },
+    {
+     "time": "13:15",
+     "place_pt": "Metropolo Nanjing Hotel (deixar malas ou check-in)",
+     "place_zh": "上海南京路步行街锦江都城南京饭店",
+     "lat": 31.2392,
+     "lng": 121.4778,
+     "how_pt": "Didi ~60 min (~¥190 o carro). Alternativa: metrô L2 até East Nanjing Road, saída 1 (¥7, ~75 min)",
+     "mode": "didi",
+     "stay_min": 15,
+     "cost_brl_person": 75,
+     "tip_pt": "Entreguem os 2 passaportes. Quarto não pronto? 可以寄存行李吗？ e peçam para usar o banheiro."
+    },
+    {
+     "time": "13:45",
+     "place_pt": "Almoço: Jia Jia Tang Bao (xiaolongbao)",
+     "place_zh": "佳家汤包（黄河路）",
+     "lat": 31.2368,
+     "lng": 121.47,
+     "how_pt": "A pé pela Nanjing Road sentido People's Square, virando na Huanghe Road (~12 min)",
+     "mode": "a_pe",
+     "stay_min": 60,
+     "cost_brl_person": 40,
+     "tip_pt": "QR da mesa: porco ¥23 (12 unid.) + caranguejo ¥38. Furem e bebam o caldo antes de morder."
+    },
+    {
+     "time": "15:00",
+     "place_pt": "Check-in e soneca de no máximo 75 min",
+     "place_zh": "锦江都城南京饭店",
+     "lat": 31.2392,
+     "lng": 121.4778,
+     "how_pt": "A pé, ~15 min de volta",
+     "mode": "a_pe",
+     "stay_min": 75,
+     "cost_brl_person": 0,
+     "tip_pt": "Despertador para 16:10. Ao sair, olhem se o topo da Shanghai Tower está visível."
+    },
+    {
+     "time": "16:20",
+     "place_pt": "Rua de pedestres Nanjing Road East",
+     "place_zh": "南京东路步行街",
+     "lat": 31.239,
+     "lng": 121.4815,
+     "how_pt": "A pé, na porta do hotel, sentido rio",
+     "mode": "a_pe",
+     "stay_min": 35,
+     "cost_brl_person": 16,
+     "tip_pt": "Área do golpe da casa de chá: 'Bù yào, xièxie' e sigam andando."
+    },
+    {
+     "time": "17:00",
+     "place_pt": "Calçadão do Bund (vista de Lujiazui)",
+     "place_zh": "外滩",
+     "lat": 31.2403,
+     "lng": 121.4857,
+     "how_pt": "A pé, ~8 min. Atravessem a Zhongshan East 1st Rd pela passagem subterrânea",
+     "mode": "a_pe",
+     "stay_min": 28,
+     "cost_brl_person": 0,
+     "tip_pt": "Compromisso fixo do dia: se o resto atrasou, cortem soneca ou almoço, não o Bund."
+    },
+    {
+     "time": "17:40",
+     "place_pt": "Ponte Waibaidu (pôr do sol e hora azul)",
+     "place_zh": "外白渡桥",
+     "lat": 31.2447,
+     "lng": 121.485,
+     "how_pt": "A pé ~12 min para o norte pelo calçadão",
+     "mode": "a_pe",
+     "stay_min": 45,
+     "cost_brl_person": 0,
+     "tip_pt": "Sol se põe ~17:45 e as luzes acendem ~18h. A ponte Zhapu, logo atrás, tem menos gente."
+    },
+    {
+     "time": "18:40",
+     "place_pt": "Estação East Nanjing Road",
+     "place_zh": "南京东路站",
+     "lat": 31.2381,
+     "lng": 121.4786,
+     "how_pt": "A pé ~15 min, voltando pela Nanjing Road",
+     "mode": "a_pe",
+     "stay_min": 5,
+     "cost_brl_person": 0,
+     "tip_pt": "Pico: deixem sair antes de entrar."
+    },
+    {
+     "time": "18:50",
+     "place_pt": "Estação Lujiazui",
+     "place_zh": "陆家嘴站",
+     "lat": 31.2381,
+     "lng": 121.4997,
+     "how_pt": "Metrô L2 sentido Pudong Airport, 1 estação; saída 6",
+     "mode": "metro",
+     "stay_min": 5,
+     "cost_brl_person": 2.4,
+     "tip_pt": "Da saída 6, sigam a passarela elevada circular."
+    },
+    {
+     "time": "19:05",
+     "place_pt": "Shanghai Tower, mirante do 118º andar",
+     "place_zh": "上海中心大厦 上海中心观光厅",
+     "lat": 31.2356,
+     "lng": 121.5012,
+     "how_pt": "A pé ~12 min pela passarela; entrada no subsolo, placa 上海中心观光厅",
+     "mode": "a_pe",
+     "stay_min": 75,
+     "cost_brl_person": 142,
+     "tip_pt": "Comprem no Trip.com só no dia e com céu limpo (¥180). Com névoa, pulem."
+    },
+    {
+     "time": "20:30",
+     "place_pt": "Jantar na praça de alimentação do IFC Mall",
+     "place_zh": "上海国金中心商场",
+     "lat": 31.2368,
+     "lng": 121.498,
+     "how_pt": "A pé ~10 min pela passarela",
+     "mode": "a_pe",
+     "stay_min": 60,
+     "cost_brl_person": 55,
+     "tip_pt": "Noodles e dumplings por ¥40–80. Evitem restaurante com vista para o rio."
+    },
+    {
+     "time": "21:40",
+     "place_pt": "Volta ao Metropolo Nanjing Hotel",
+     "place_zh": "锦江都城南京饭店",
+     "lat": 31.2392,
+     "lng": 121.4778,
+     "how_pt": "Metrô L2 de Lujiazui até East Nanjing Road (1 estação), saída 1, 2 min a pé",
+     "mode": "metro",
+     "stay_min": 0,
+     "cost_brl_person": 2.4,
+     "tip_pt": "Durmam no horário local, mesmo sem sono."
+    }
+   ],
+   "rain_plan_pt": "Chuva à tarde (16h): Museu de Shanghai em People's Square (grátis, 9h–17h, última entrada 16h; em fevereiro é férias escolares, então reservem pelo WeChat ou site do museu). Névoa à noite: pulem a Shanghai Tower, jantem mais cedo no IFC ou no Raffles City (People's Square) e vejam o Bund iluminado de guarda-chuva.",
+   "cost_brl_couple": 665,
+   "sleep_pt": "Metropolo Nanjing Hotel, East Nanjing Road (~R$474 a noite, casal)"
+  },
+  {
+   "date": "2027-02-19",
+   "weekday_pt": "sexta-feira",
+   "city": "Shanghai",
+   "title_pt": "Manhã tranquila, Old City, Yu Garden e Feira de Lanternas de Yuyuan",
+   "stops": [
+    {
+     "time": "08:45",
+     "place_pt": "Café da manhã perto do hotel (baozi ou FamilyMart)",
+     "place_zh": "南京东路 早餐",
+     "lat": 31.2388,
+     "lng": 121.4785,
+     "how_pt": "A pé, 2–5 min do hotel",
+     "mode": "a_pe",
+     "stay_min": 45,
+     "cost_brl_person": 16,
+     "tip_pt": "Baozi e leite de soja por ¥10–20; o café do hotel custa ¥98."
+    },
+    {
+     "time": "10:00",
+     "place_pt": "Estação Yuyuan Garden",
+     "place_zh": "豫园站",
+     "lat": 31.2292,
+     "lng": 121.4825,
+     "how_pt": "A pé até East Nanjing Road (2 min), metrô L10 1 estação até Yuyuan Garden, saída 1",
+     "mode": "metro",
+     "stay_min": 10,
+     "cost_brl_person": 2.4,
+     "tip_pt": "Sigam as placas '豫园 Yu Garden' pelo bazar."
+    },
+    {
+     "time": "10:20",
+     "place_pt": "Yu Garden (jardim clássico, pago)",
+     "place_zh": "豫园",
+     "lat": 31.2272,
+     "lng": 121.4875,
+     "how_pt": "A pé ~7 min pelo bazar, pela ponte em zigue-zague (九曲桥)",
+     "mode": "a_pe",
+     "stay_min": 90,
+     "cost_brl_person": 32,
+     "tip_pt": "9:00–16:30, fecha às segundas. Ingresso ¥30–40 com passaporte."
+    },
+    {
+     "time": "12:00",
+     "place_pt": "Almoço: Nanxiang Mantou Dian",
+     "place_zh": "南翔馒头店（豫园）",
+     "lat": 31.227,
+     "lng": 121.4872,
+     "how_pt": "A pé 2–3 min, ao lado do lago da casa de chá",
+     "mode": "a_pe",
+     "stay_min": 60,
+     "cost_brl_person": 48,
+     "tip_pt": "2º andar tem mesas (porco ¥40 com 6). Fila longa? Térreo vende para viagem."
+    },
+    {
+     "time": "13:00",
+     "place_pt": "Templo do Deus da Cidade e Old Street (Fangbang Road)",
+     "place_zh": "上海城隍庙 / 方浜中路",
+     "lat": 31.226,
+     "lng": 121.486,
+     "how_pt": "A pé 3–5 min pelo bazar",
+     "mode": "a_pe",
+     "stay_min": 60,
+     "cost_brl_person": 8,
+     "tip_pt": "Templo ~¥10. A Fangbang Road é área grátis de lanternas."
+    },
+    {
+     "time": "14:15",
+     "place_pt": "Descanso no hotel",
+     "place_zh": "锦江都城南京饭店",
+     "lat": 31.2392,
+     "lng": 121.4778,
+     "how_pt": "Metrô L10 de Yuyuan Garden até East Nanjing Road (1 estação), saída 1",
+     "mode": "metro",
+     "stay_min": 135,
+     "cost_brl_person": 2.4,
+     "tip_pt": "Carreguem o celular (ingresso é QR) e vistam mais camadas (2–6 °C)."
+    },
+    {
+     "time": "16:50",
+     "place_pt": "Volta à estação Yuyuan Garden",
+     "place_zh": "豫园站",
+     "lat": 31.2292,
+     "lng": 121.4825,
+     "how_pt": "Metrô L10 de East Nanjing Road, 1 estação, saída 1",
+     "mode": "metro",
+     "stay_min": 10,
+     "cost_brl_person": 2.4,
+     "tip_pt": "Estação fechada por multidão? Desçam em Laoximen (L10) e andem ~15 min."
+    },
+    {
+     "time": "17:15",
+     "place_pt": "Feira de Lanternas de Yuyuan (área paga)",
+     "place_zh": "豫园灯会",
+     "lat": 31.2275,
+     "lng": 121.4866,
+     "how_pt": "A pé ~5 min, placas 灯会 / Lantern Festival",
+     "mode": "a_pe",
+     "stay_min": 135,
+     "cost_brl_person": 63,
+     "tip_pt": "Ingresso comprado antes (~¥80) com passaporte. Mochila na frente; ponto de encontro na ponte em zigue-zague."
+    },
+    {
+     "time": "19:40",
+     "place_pt": "Jantar na rua de comida Yunnan South Road",
+     "place_zh": "云南南路美食街",
+     "lat": 31.2325,
+     "lng": 121.479,
+     "how_pt": "Metrô L14 de Yuyuan Garden até Dashijie (1 estação), 3 min a pé",
+     "mode": "metro",
+     "stay_min": 60,
+     "cost_brl_person": 50,
+     "tip_pt": "Noodles, wonton e shengjianbao por ¥40–60. Recusem táxi sem taxímetro."
+    },
+    {
+     "time": "20:50",
+     "place_pt": "Volta ao hotel",
+     "place_zh": "锦江都城南京饭店",
+     "lat": 31.2392,
+     "lng": 121.4778,
+     "how_pt": "A pé ~15 min pela Yunnan Road até a Nanjing Road, ou Didi ~¥15",
+     "mode": "a_pe",
+     "stay_min": 0,
+     "cost_brl_person": 0,
+     "tip_pt": "Arrumem a mala: check-out amanhã às 08:15."
+    }
+   ],
+   "rain_plan_pt": "Façam o Yu Garden (tem corredores cobertos). Troquem a Old Street pelo Museu de Shanghai em People's Square (grátis, fecha às 17h, última entrada 16h; nas férias escolares de fevereiro, reservem antes pelo WeChat ou site). As lanternas funcionam na chuva: capa descartável (~¥10) e guarda-chuva pequeno. Alerta de tempestade: vejam o Trip.com e fiquem nas áreas grátis (Fuyou Road, Bund).",
+   "cost_brl_couple": 450,
+   "sleep_pt": "Metropolo Nanjing Hotel, East Nanjing Road (~R$474 a noite, casal)"
+  },
+  {
+   "date": "2027-02-20",
+   "weekday_pt": "sábado (Festival das Lanternas)",
+   "city": "Suzhou",
+   "title_pt": "Trem-bala para Suzhou, Humble Administrator's Garden e lanternas nos canais",
+   "stops": [
+    {
+     "time": "08:15",
+     "place_pt": "Check-out no Metropolo Nanjing Hotel",
+     "place_zh": "锦江都城南京饭店",
+     "lat": 31.2392,
+     "lng": 121.4778,
+     "how_pt": "Levar as malas até a recepção",
+     "mode": "nenhum",
+     "stay_min": 10,
+     "cost_brl_person": 0,
+     "tip_pt": "Passaporte na bolsa de mão e print do vagão e assento do G7006."
+    },
+    {
+     "time": "08:30",
+     "place_pt": "Shanghai Railway Station",
+     "place_zh": "上海站",
+     "lat": 31.2497,
+     "lng": 121.4553,
+     "how_pt": "Didi ~15 min (~¥20–25 o carro). Destino: 上海站",
+     "mode": "didi",
+     "stay_min": 30,
+     "cost_brl_person": 10,
+     "tip_pt": "Catraca com passaporte aberto na página da foto; se não abrir, fila 人工通道. Depois telão e portão (检票口)."
+    },
+    {
+     "time": "09:00",
+     "place_pt": "Trem G7006 até a estação Suzhou",
+     "place_zh": "G7006 上海站→苏州站",
+     "lat": 31.33,
+     "lng": 120.609,
+     "how_pt": "Trem-bala, 2ª classe, ~25–30 min",
+     "mode": "trem",
+     "stay_min": 25,
+     "cost_brl_person": 31,
+     "tip_pt": "Desçam em 苏州站, não em Suzhou North. Levantem com a mala 3 min antes."
+    },
+    {
+     "time": "09:45",
+     "place_pt": "Atour S Hotel (deixar as malas)",
+     "place_zh": "苏州观前街平江路亚朵S酒店",
+     "lat": 31.3112,
+     "lng": 120.6264,
+     "how_pt": "Seguir 网约车 e pegar Didi ~15 min (~¥20)",
+     "mode": "didi",
+     "stay_min": 20,
+     "cost_brl_person": 8,
+     "tip_pt": "Check-in costuma ser às 14h. Peçam quarto com janela (有窗)."
+    },
+    {
+     "time": "10:30",
+     "place_pt": "Humble Administrator's Garden",
+     "place_zh": "拙政园",
+     "lat": 31.3264,
+     "lng": 120.6247,
+     "how_pt": "Metrô L6 de Xuanqiaoxiang até 拙政园苏博 (1–2 estações), ou a pé ~20 min",
+     "mode": "metro",
+     "stay_min": 120,
+     "cost_brl_person": 38,
+     "tip_pt": "Só com reserva (¥50 na baixa, confirmar) e passaporte original. Abre às 7:30. Comecem pelo Jardim Oeste."
+    },
+    {
+     "time": "12:45",
+     "place_pt": "Almoço: sopa de macarrão de Suzhou na Pingjiang Road",
+     "place_zh": "平江路 苏式汤面",
+     "lat": 31.3158,
+     "lng": 120.6296,
+     "how_pt": "A pé ~15 min, descendo a Pingjiang Road",
+     "mode": "a_pe",
+     "stay_min": 60,
+     "cost_brl_person": 40,
+     "tip_pt": "苏式汤面 ¥25–45. Fila de mais de 30 min? Mudem de lugar."
+    },
+    {
+     "time": "14:00",
+     "place_pt": "Check-in e descanso",
+     "place_zh": "亚朵S酒店",
+     "lat": 31.3112,
+     "lng": 120.6264,
+     "how_pt": "A pé ~10 min",
+     "mode": "a_pe",
+     "stay_min": 120,
+     "cost_brl_person": 0,
+     "tip_pt": "Sem aquecimento central: peçam 'extra blanket'."
+    },
+    {
+     "time": "16:15",
+     "place_pt": "Passeio pela Pingjiang Road e becos ao entardecer",
+     "place_zh": "平江路历史街区",
+     "lat": 31.3158,
+     "lng": 120.6296,
+     "how_pt": "A pé ~7 min",
+     "mode": "a_pe",
+     "stay_min": 90,
+     "cost_brl_person": 10,
+     "tip_pt": "Lanternas acendem ~17:30–18:00 e a rua lota rápido."
+    },
+    {
+     "time": "18:00",
+     "place_pt": "Jantar: Songhelou (peixe-esquilo agridoce)",
+     "place_zh": "松鹤楼（观前街）",
+     "lat": 31.3106,
+     "lng": 120.6268,
+     "how_pt": "A pé ~10 min até a Guanqian Street",
+     "mode": "a_pe",
+     "stay_min": 75,
+     "cost_brl_person": 95,
+     "tip_pt": "松鼠鳜鱼 para 2 ~¥180–260. Reservem pelo Trip.com ou cheguem às 17:30."
+    },
+    {
+     "time": "19:30",
+     "place_pt": "Noite de lanternas na Shantang Street (canal)",
+     "place_zh": "山塘街",
+     "lat": 31.3175,
+     "lng": 120.6055,
+     "how_pt": "Didi ~15 min (~¥20); descer em 山塘街 (entrada 星桥)",
+     "mode": "didi",
+     "stay_min": 90,
+     "cost_brl_person": 23,
+     "tip_pt": "Comam tangyuan (汤圆), o doce da data (~¥15–25). Celular no bolso da frente."
+    },
+    {
+     "time": "21:15",
+     "place_pt": "Volta ao Atour S Hotel",
+     "place_zh": "苏州观前街平江路亚朵S酒店",
+     "lat": 31.3112,
+     "lng": 120.6264,
+     "how_pt": "Andar 1–2 quadras para longe da multidão e pedir Didi (~¥20)",
+     "mode": "didi",
+     "stay_min": 0,
+     "cost_brl_person": 8,
+     "tip_pt": "Malas prontas para o trem das 09:19."
+    }
+   ],
+   "rain_plan_pt": "Chuva fina: o jardim tem pavilhões cobertos. Na tarde livre, Suzhou Museum (grátis, com reserva no Trip.com), colado ao jardim. Chuva forte: pulem a Shantang e fiquem na Pingjiang, perto do hotel.",
+   "cost_brl_couple": 525,
+   "sleep_pt": "Atour S Hotel Guanqian Pingjiang Road (~R$800 a noite, casal, preço de feriado)"
+  },
+  {
+   "date": "2027-02-21",
+   "weekday_pt": "domingo",
+   "city": "Hangzhou",
+   "title_pt": "Trem para Hangzhou, vila do chá Longjing e pôr do sol no West Lake",
+   "stops": [
+    {
+     "time": "08:35",
+     "place_pt": "Estação Suzhou",
+     "place_zh": "苏州站",
+     "lat": 31.33,
+     "lng": 120.609,
+     "how_pt": "Check-out 08:15 e Didi ~15 min (~¥20)",
+     "mode": "didi",
+     "stay_min": 40,
+     "cost_brl_person": 8,
+     "tip_pt": "Lanche na FamilyMart da estação."
+    },
+    {
+     "time": "09:19",
+     "place_pt": "Trem G7587 até Hangzhou East",
+     "place_zh": "G7587 苏州站→杭州东站",
+     "lat": 30.291,
+     "lng": 120.213,
+     "how_pt": "Trem-bala, 2ª classe, ~1h35 (chegada 10:54)",
+     "mode": "trem",
+     "stay_min": 95,
+     "cost_brl_person": 136,
+     "tip_pt": "¥178,5. Os trens G7505 e G7349 saem de 苏州北 (outra estação, ~30 min de Didi), não daqui."
+    },
+    {
+     "time": "11:25",
+     "place_pt": "Estação de metrô Longxiangqiao",
+     "place_zh": "龙翔桥站",
+     "lat": 30.2571,
+     "lng": 120.1594,
+     "how_pt": "Seguir 地铁 1号线; Linha 1 sentido 湘湖, sem troca, ~20 min",
+     "mode": "metro",
+     "stay_min": 5,
+     "cost_brl_person": 3,
+     "tip_pt": "Domingo a estação lota: segurem a mala."
+    },
+    {
+     "time": "11:35",
+     "place_pt": "Atour Hotel West Lakeside (deixar as malas)",
+     "place_zh": "杭州西湖湖滨龙翔桥地铁站亚朵酒店",
+     "lat": 30.2602,
+     "lng": 120.1655,
+     "how_pt": "A pé ~6 min",
+     "mode": "a_pe",
+     "stay_min": 15,
+     "cost_brl_person": 0,
+     "tip_pt": "Check-in fica para a noite."
+    },
+    {
+     "time": "12:00",
+     "place_pt": "Almoço: Grandma's Home",
+     "place_zh": "外婆家（湖滨）",
+     "lat": 30.2575,
+     "lng": 120.1665,
+     "how_pt": "A pé ~5 min",
+     "mode": "a_pe",
+     "stay_min": 60,
+     "cost_brl_person": 55,
+     "tip_pt": "Senha na maquininha da entrada. Porco Dongpo (东坡肉)."
+    },
+    {
+     "time": "13:15",
+     "place_pt": "Longjing Village (vila do chá)",
+     "place_zh": "龙井村",
+     "lat": 30.2219,
+     "lng": 120.0981,
+     "how_pt": "Didi ~25 min (~¥30)",
+     "mode": "didi",
+     "stay_min": 120,
+     "cost_brl_person": 27,
+     "tip_pt": "Combinem o preço da degustação ANTES (~¥30–50). Sapato para barro."
+    },
+    {
+     "time": "15:30",
+     "place_pt": "Entrada sul do Su Causeway (Huagang Guanyu)",
+     "place_zh": "苏堤南端 / 花港观鱼",
+     "lat": 30.2345,
+     "lng": 120.1435,
+     "how_pt": "Didi ~20 min (~¥25)",
+     "mode": "didi",
+     "stay_min": 90,
+     "cost_brl_person": 10,
+     "tip_pt": "Caminhem 2,8 km para o norte pelo dique, só para pedestres. Gorro e luva."
+    },
+    {
+     "time": "17:15",
+     "place_pt": "Pôr do sol no norte do Su Causeway",
+     "place_zh": "苏堤北口 / 曲院风荷",
+     "lat": 30.2575,
+     "lng": 120.1425,
+     "how_pt": "A pé, fim da caminhada",
+     "mode": "a_pe",
+     "stay_min": 45,
+     "cost_brl_person": 0,
+     "tip_pt": "Sol se põe ~17:50."
+    },
+    {
+     "time": "18:15",
+     "place_pt": "Jantar na Hefang Street",
+     "place_zh": "河坊街",
+     "lat": 30.2425,
+     "lng": 120.168,
+     "how_pt": "Didi ~15–20 min (~¥20)",
+     "mode": "didi",
+     "stay_min": 120,
+     "cost_brl_person": 88,
+     "tip_pt": "Lanches de rua ou xiaolongbao no Zhiweiguan (知味观)."
+    },
+    {
+     "time": "20:30",
+     "place_pt": "Volta e check-in no Atour Hotel",
+     "place_zh": "亚朵酒店（龙翔桥）",
+     "lat": 30.2602,
+     "lng": 120.1655,
+     "how_pt": "Metrô L1 de Ding'an Road até Longxiangqiao (1 estação) + 6 min a pé",
+     "mode": "metro",
+     "stay_min": 0,
+     "cost_brl_person": 2.4,
+     "tip_pt": "Roupa na lavanderia. Confirmem a reserva do Lingyin e agendem o Didi das 07:05 em 预约 / Schedule (ou peçam na recepção)."
+    }
+   ],
+   "rain_plan_pt": "Troquem Longjing pelo China National Tea Museum (grátis, degustação coberta). West Lake de barco coberto (~¥55–70, não confirmado) ou de Didi. Noite na Hefang Street, que tem galerias.",
+   "cost_brl_couple": 660,
+   "sleep_pt": "Atour Hotel Hangzhou West Lakeside Longxiangqiao (~R$520 a noite, casal)"
+  },
+  {
+   "date": "2027-02-22",
+   "weekday_pt": "segunda-feira",
+   "city": "Hangzhou",
+   "title_pt": "Lingyin e Feilaifeng na abertura, malas e trem para Shangrao (fim do módulo)",
+   "stops": [
+    {
+     "time": "06:50",
+     "place_pt": "Check-out e deixar malas no Atour",
+     "place_zh": "亚朵酒店 寄存行李",
+     "lat": 30.2602,
+     "lng": 120.1655,
+     "how_pt": "Recepção do hotel; Didi agendado para 07:05",
+     "mode": "nenhum",
+     "stay_min": 15,
+     "cost_brl_person": 0,
+     "tip_pt": "Digam 寄存行李. Levem só passaporte e água."
+    },
+    {
+     "time": "07:30",
+     "place_pt": "Lingyin e Feilaifeng (chegada na abertura)",
+     "place_zh": "灵隐飞来峰景区",
+     "lat": 30.241,
+     "lng": 120.099,
+     "how_pt": "Didi ~25 min (~¥35). Na segunda, o carro entra até o portão",
+     "mode": "didi",
+     "stay_min": 100,
+     "cost_brl_person": 14,
+     "tip_pt": "Grátis, com reserva do turno da manhã e passaporte original. Feilaifeng primeiro (~45 min), depois os salões. Saiam às 09:10."
+    },
+    {
+     "time": "09:45",
+     "place_pt": "Volta ao Atour para pegar as malas",
+     "place_zh": "亚朵酒店（龙翔桥）",
+     "lat": 30.2602,
+     "lng": 120.1655,
+     "how_pt": "Didi ~35 min (~¥40, trânsito de segunda)",
+     "mode": "didi",
+     "stay_min": 10,
+     "cost_brl_person": 15,
+     "tip_pt": "Se às 09:15 ainda estiverem no templo, troquem já para o G1375 (12:10) no Trip.com."
+    },
+    {
+     "time": "10:25",
+     "place_pt": "Estação Hangzhou East",
+     "place_zh": "杭州东站",
+     "lat": 30.2912,
+     "lng": 120.2126,
+     "how_pt": "Didi com as malas às 09:55, direto, ~30 min (~¥35), sem escada de metrô",
+     "mode": "didi",
+     "stay_min": 55,
+     "cost_brl_person": 44,
+     "tip_pt": "Passaporte na catraca, raio-X e portão do G1657, que fecha às 11:15. Comprem o almoço na estação (~¥40)."
+    },
+    {
+     "time": "11:20",
+     "place_pt": "Trem G1657 até Shangrao (rumo a Wangxian Valley)",
+     "place_zh": "G1657 杭州东→上饶",
+     "lat": 28.4941,
+     "lng": 118.0022,
+     "how_pt": "Trem-bala, 2ª classe, ~1h40, chegada ~13:01",
+     "mode": "trem",
+     "stay_min": 100,
+     "cost_brl_person": 201,
+     "tip_pt": "¥263,5 (preço de 2026; conferir). Reservas: G1375 (12:10) ou G1451 (12:32)."
+    }
+   ],
+   "rain_plan_pt": "O Lingyin funciona com chuva e fica mais vazio. As escadas ficam lisas: tênis antiderrapante e capa. Chuva torrencial: só os salões principais (~1h) e voltem mais cedo.",
+   "cost_brl_couple": 550,
+   "sleep_pt": "Fora deste módulo: primeira noite na região de Wangxian Valley / Shangrao (ver o próximo módulo)"
+  }
+ ],
+ "bag": {
+  "carry_on_ok": [
+   "Líquidos em frascos de até 100 ml, num saco transparente de 1 L (1 por pessoa)",
+   "Remédios na caixa original com receita",
+   "Power bank de até 100 Wh (20.000 mAh passa), no máximo 2 por pessoa, sem usar a bordo",
+   "Celular, notebook, câmera, baterias extras com os polos protegidos",
+   "1 muda de roupa e carregadores",
+   "Biscoito, chocolate e bala lacrados",
+   "Documentos, CIVP, cartões e dinheiro",
+   "Casaco quente para a chegada"
+  ],
+  "forbidden": [
+   "Frasco acima de 100 ml na bagagem de mão, mesmo meio vazio",
+   "Faca, canivete, estilete e tesoura com lâmina na mão",
+   "Isqueiro e fósforo em voo saindo da China (nem na mala despachada)",
+   "Power bank acima de 160 Wh, mais de 2, ou sem capacidade legível",
+   "Spray de pimenta, arma de choque, fogos",
+   "Fumar cigarro ou vape no trem-bala (multa de ¥500–2.000)",
+   "Drone (registro obrigatório e muitas zonas proibidas; não levar)"
+  ],
+  "checked_only": [
+   "Tesoura, cortador de unha e alicate com lâmina",
+   "Shampoo, hidratante e protetor solar acima de 100 ml",
+   "Tripé grande e bastão de caminhada",
+   "NUNCA despachar: power bank, bateria de lítio avulsa, vape"
+  ],
+  "china_customs_no": [
+   "Fruta e verdura frescas (inclusive a do avião)",
+   "Carne e embutidos: salame, presunto, linguiça, carne-seca, patê",
+   "Queijo, manteiga, requeijão, doce de leite, pão de queijo congelado",
+   "Ovos e maionese",
+   "Sementes, mudas, flores e terra",
+   "CBD e qualquer derivado de cannabis",
+   "Ritalina, Venvanse e outros estimulantes; calmantes controlados só com receita e declaração",
+   "Dinheiro acima de US$5.000 ou ¥20.000 sem declarar no canal vermelho"
+  ],
+  "packing": [
+   {
+    "group_pt": "Roupas (por pessoa)",
+    "items": [
+     "1 puffer leve impermeável com capuz (vestido no avião)",
+     "1 capa de chuva fina",
+     "1 fleece e 2 blusas de lã fina",
+     "2 conjuntos de segunda pele térmica",
+     "4–5 camisetas de manga longa",
+     "2 calças + 1 que seca rápido",
+     "7 pares de meia (2–3 térmicas) e 7 roupas íntimas",
+     "Gorro, cachecol e luva touchscreen",
+     "Pijama quente"
+    ]
+   },
+   {
+    "group_pt": "Calçados",
+    "items": [
+     "Tênis impermeável ou bota leve já amaciada",
+     "Tênis reserva",
+     "Chinelo de quarto"
+    ]
+   },
+   {
+    "group_pt": "Higiene",
+    "items": [
+     "Saco zip de 1 L com frascos de até 100 ml",
+     "Hidratante de pele e labial",
+     "Lenço de papel e papel higiênico de bolso",
+     "Álcool em gel de até 100 ml"
+    ]
+   },
+   {
+    "group_pt": "Remédios (na bagagem de mão)",
+    "items": [
+     "Uso contínuo para 48 dias + folga, com receita em inglês",
+     "Analgésico, antialérgico, remédio para enjoo e diarreia, soro",
+     "Remédio para gripe e pastilha para garganta",
+     "Band-aid e curativo para bolha"
+    ]
+   },
+   {
+    "group_pt": "Eletrônicos",
+    "items": [
+     "eSIM instalado e VPN com login feito",
+     "1 power bank de 10.000–20.000 mAh",
+     "2 adaptadores universais de tomada",
+     "Carregadores 100–240 V e cabos extras",
+     "Fone com fio"
+    ]
+   },
+   {
+    "group_pt": "Documentos",
+    "items": [
+     "Passaporte (+ cópia na mala e foto no celular)",
+     "Visto L ou comprovante da isenção",
+     "CIVP de febre amarela impresso",
+     "Passagem de ida e bilhete de SAÍDA da China impressos",
+     "Reservas de hotel com endereço em chinês",
+     "Apólice do seguro em inglês",
+     "2 cartões físicos + ¥200–300 em notas + US$100–200 de emergência",
+     "Print do QR do cartão de chegada (CDAC)"
+    ]
+   },
+   {
+    "group_pt": "Mochila do dia",
+    "items": [
+     "Garrafa térmica vazia",
+     "Guarda-chuva compacto",
+     "Snacks lacrados",
+     "Saco plástico para roupa molhada",
+     "Travesseiro de pescoço e máscara de dormir"
+    ]
+   }
+  ]
+ },
+ "phrases": [
+  {
+   "pt": "Olá",
+   "zh": "你好",
+   "pinyin": "Nǐ hǎo"
+  },
+  {
+   "pt": "Obrigado",
+   "zh": "谢谢",
+   "pinyin": "Xièxie"
+  },
+  {
+   "pt": "Não, obrigado (para vendedor ou aliciador)",
+   "zh": "不要，谢谢",
+   "pinyin": "Bù yào, xièxie"
+  },
+  {
+   "pt": "Vim a turismo",
+   "zh": "我来旅游",
+   "pinyin": "Wǒ lái lǚyóu"
+  },
+  {
+   "pt": "Não tenho nada a declarar",
+   "zh": "我没有东西要申报",
+   "pinyin": "Wǒ méiyǒu dōngxi yào shēnbào"
+  },
+  {
+   "pt": "Temos certificado de febre amarela",
+   "zh": "我们有黄热病疫苗证书",
+   "pinyin": "Wǒmen yǒu huángrèbìng yìmiáo zhèngshū"
+  },
+  {
+   "pt": "Minha mala não chegou",
+   "zh": "我的行李没到",
+   "pinyin": "Wǒ de xíngli méi dào"
+  },
+  {
+   "pt": "Onde pego carro de aplicativo (Didi)?",
+   "zh": "网约车在哪里上车？",
+   "pinyin": "Wǎngyuēchē zài nǎlǐ shàngchē?"
+  },
+  {
+   "pt": "Estou no ponto de embarque (chat do Didi)",
+   "zh": "我在上车点",
+   "pinyin": "Wǒ zài shàngchē diǎn"
+  },
+  {
+   "pt": "Por favor, ligue o taxímetro",
+   "zh": "请打表",
+   "pinyin": "Qǐng dǎbiǎo"
+  },
+  {
+   "pt": "Por favor, me leve a este endereço",
+   "zh": "请带我去这个地址",
+   "pinyin": "Qǐng dài wǒ qù zhège dìzhǐ"
+  },
+  {
+   "pt": "Posso entrar no quarto mais cedo?",
+   "zh": "请问可以提前入住吗？",
+   "pinyin": "Qǐngwèn kěyǐ tíqián rùzhù ma?"
+  },
+  {
+   "pt": "Pode guardar nossa bagagem?",
+   "zh": "可以寄存行李吗？",
+   "pinyin": "Kěyǐ jìcún xíngli ma?"
+  },
+  {
+   "pt": "Quarto com janela, por favor",
+   "zh": "请给我有窗的房间",
+   "pinyin": "Qǐng gěi wǒ yǒu chuāng de fángjiān"
+  },
+  {
+   "pt": "Por favor, passe meu passaporte (na catraca)",
+   "zh": "麻烦帮我刷一下护照",
+   "pinyin": "Máfan bāng wǒ shuā yíxià hùzhào"
+  },
+  {
+   "pt": "Meu trem é o G1657. Qual o portão?",
+   "zh": "我的车次是G1657，在哪个检票口？",
+   "pinyin": "Wǒ de chēcì shì G1657, zài nǎge jiǎnpiàokǒu?"
+  },
+  {
+   "pt": "Onde fica o metrô?",
+   "zh": "地铁站怎么走？",
+   "pinyin": "Dìtiě zhàn zěnme zǒu?"
+  },
+  {
+   "pt": "Posso pagar com Alipay?",
+   "zh": "可以用支付宝吗？",
+   "pinyin": "Kěyǐ yòng Zhīfùbǎo ma?"
+  },
+  {
+   "pt": "Quanto custa?",
+   "zh": "多少钱？",
+   "pinyin": "Duōshao qián?"
+  },
+  {
+   "pt": "Onde é o banheiro?",
+   "zh": "洗手间在哪里？",
+   "pinyin": "Xǐshǒujiān zài nǎlǐ?"
+  },
+  {
+   "pt": "Socorro! Chame a polícia",
+   "zh": "救命！请报警",
+   "pinyin": "Jiùmìng! Qǐng bàojǐng"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "GRU",
+   "meaning_pt": "Aeroporto Internacional de Guarulhos, em São Paulo."
+  },
+  {
+   "term": "PVG",
+   "meaning_pt": "Aeroporto de Pudong, o internacional de Shanghai (terminais T1 e T2)."
+  },
+  {
+   "term": "Multidestino (vários trechos)",
+   "meaning_pt": "Passagem que vai para uma cidade e volta de outra, num único bilhete."
+  },
+  {
+   "term": "PNR / Localizador",
+   "meaning_pt": "Código de 6 letras e números da reserva do voo."
+  },
+  {
+   "term": "Número do bilhete",
+   "meaning_pt": "Código de 13 dígitos que prova que a passagem foi emitida."
+  },
+  {
+   "term": "ANAC",
+   "meaning_pt": "Agência Nacional de Aviação Civil, que regula voos no Brasil."
+  },
+  {
+   "term": "EU261",
+   "meaning_pt": "Regra europeia de direitos do passageiro: assistência e indenização em atraso ou cancelamento de voos saindo da Europa ou em companhia europeia."
+  },
+  {
+   "term": "PIR",
+   "meaning_pt": "Property Irregularity Report: comprovante de mala extraviada, feito no balcão do aeroporto antes da alfândega."
+  },
+  {
+   "term": "IOF",
+   "meaning_pt": "Imposto sobre compras em moeda estrangeira: 3,5% no cartão e no dinheiro em espécie."
+  },
+  {
+   "term": "CIVP",
+   "meaning_pt": "Certificado Internacional de Vacinação ou Profilaxia: o 'cartão amarelo' de febre amarela, emitido pelo gov.br."
+  },
+  {
+   "term": "Isenção de visto",
+   "meaning_pt": "Entrada na China sem visto por até 30 dias. Hoje só vale para entradas até 31/12/2026."
+  },
+  {
+   "term": "Visto L",
+   "meaning_pt": "Visto chinês de turismo. Necessário se a isenção não for prorrogada para 2027."
+  },
+  {
+   "term": "CVASC",
+   "meaning_pt": "Centro de Serviço de Solicitação de Vistos da China, onde se pede o visto L (visaforchina.cn)."
+  },
+  {
+   "term": "NIA",
+   "meaning_pt": "Administração Nacional de Imigração da China."
+  },
+  {
+   "term": "CDAC",
+   "meaning_pt": "China Digital Arrival Card: cartão de chegada online, preenchido nas 72h antes do pouso."
+  },
+  {
+   "term": "eSIM",
+   "meaning_pt": "Chip digital instalado por QR code, sem trocar o chip físico."
+  },
+  {
+   "term": "EID",
+   "meaning_pt": "Número que aparece ao discar *#06#. Se existir, o celular aceita eSIM."
+  },
+  {
+   "term": "Top-up",
+   "meaning_pt": "Recarga de dados ou dias extras no eSIM, feita pelo app."
+  },
+  {
+   "term": "VPN",
+   "meaning_pt": "Programa que disfarça a conexão para acessar sites bloqueados na China."
+  },
+  {
+   "term": "Alipay (支付宝)",
+   "meaning_pt": "App chinês de pagamento por QR code. Também serve para metrô e Didi."
+  },
+  {
+   "term": "WeChat (微信)",
+   "meaning_pt": "App chinês de mensagens com carteira. Reserva do Alipay e necessário para alguns miniapps de reserva."
+  },
+  {
+   "term": "Didi (滴滴)",
+   "meaning_pt": "O 'Uber' chinês. Funciona dentro do Alipay ou no app DiDi Rider, em inglês."
+  },
+  {
+   "term": "Express / 快车",
+   "meaning_pt": "Categoria mais barata do Didi."
+  },
+  {
+   "term": "网约车",
+   "meaning_pt": "Placa do ponto de embarque de carro por aplicativo."
+  },
+  {
+   "term": "AMAP (高德)",
+   "meaning_pt": "Mapa chinês preciso. A versão AMAP Global, em inglês, deve ser baixada no Brasil."
+  },
+  {
+   "term": "Trip.com",
+   "meaning_pt": "Site e app para reservar hotéis, trens e ingressos com cartão estrangeiro."
+  },
+  {
+   "term": "G-train (trem G)",
+   "meaning_pt": "Trem-bala chinês mais rápido, até 350 km/h. O número começa com G."
+  },
+  {
+   "term": "2ª classe (二等座)",
+   "meaning_pt": "Classe econômica do trem-bala. Assentos A e F são janela."
+  },
+  {
+   "term": "候补 (Waitlist)",
+   "meaning_pt": "Lista de espera de bilhete de trem esgotado."
+  },
+  {
+   "term": "无座",
+   "meaning_pt": "Bilhete de trem sem assento (em pé). Última opção quando esgota."
+  },
+  {
+   "term": "人工通道",
+   "meaning_pt": "Fila com funcionário na estação, para quando a catraca não lê o passaporte."
+  },
+  {
+   "term": "检票口",
+   "meaning_pt": "Portão de embarque do trem, mostrado no telão."
+  },
+  {
+   "term": "车厢",
+   "meaning_pt": "Vagão do trem. O número aparece no pedido do Trip.com e no chão da plataforma."
+  },
+  {
+   "term": "Maglev (磁浮)",
+   "meaning_pt": "Trem de levitação magnética entre PVG e Longyang Road, a 300 km/h."
+  },
+  {
+   "term": "Chunyun (春运)",
+   "meaning_pt": "Pico de viagens do Ano Novo Chinês. Trens e hotéis lotam."
+  },
+  {
+   "term": "Festival das Lanternas (元宵节)",
+   "meaning_pt": "15º dia do Ano Novo Lunar. Em 2027 cai no sábado 20/fev."
+  },
+  {
+   "term": "坐便",
+   "meaning_pt": "Placa de banheiro com vaso comum (não de agachar)."
+  },
+  {
+   "term": "Wh / mAh",
+   "meaning_pt": "Capacidade da bateria. 20.000 mAh ≈ 74 Wh; o limite no avião é 100 Wh."
+  },
+  {
+   "term": "Hora azul",
+   "meaning_pt": "Uns 30 min logo depois do pôr do sol, com céu azul-escuro e luzes acesas."
+  },
+  {
+   "term": "Caução (押金)",
+   "meaning_pt": "Valor bloqueado no cartão, Alipay ou pago em dinheiro no check-in, devolvido no check-out."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Melhores Destinos: promoções de passagens para a China (2026)",
+   "url": "https://www.melhoresdestinos.com.br/promocao/bom-preco-passagens-china-18ago26"
+  },
+  {
+   "label": "FlightMapper: Lufthansa LH728",
+   "url": "https://info.flightmapper.net/flight/Lufthansa_LH_728"
+  },
+  {
+   "label": "FlightMapper: KLM KL895",
+   "url": "https://info.flightmapper.net/flight/KLM_KL_895"
+  },
+  {
+   "label": "Panrotas: tarifas do Grupo Lufthansa (jun/2026)",
+   "url": "https://www.panrotas.com.br/aviacao/empresas/2026/06/grupo-lufthansa-volta-a-flexibilizar-tarifas-intercontinentais-e-reduz-taxas-de-reembolso_229194.html"
+  },
+  {
+   "label": "Gov.cn: isenção de visto até 31/12/2026",
+   "url": "https://english.www.gov.cn/news/202511/04/content_WS690964b0c6d00ca5f9a0749d.html"
+  },
+  {
+   "label": "China Briefing: regras da isenção de visto (contagem dos 30 dias)",
+   "url": "https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide/"
+  },
+  {
+   "label": "TravelChinaGuide: visto L (validade de entrada)",
+   "url": "https://www.travelchinaguide.com/embassy/visa/entry.htm"
+  },
+  {
+   "label": "CVASC / visaforchina",
+   "url": "https://www.visaforchina.cn/"
+  },
+  {
+   "label": "Bswen: bilhete de saída na isenção de visto",
+   "url": "https://chinatour.bswen.com/blog/2026-05-06-china-visa-free-entry-exit-ticket-requirements/"
+  },
+  {
+   "label": "NIA: cartão de chegada digital",
+   "url": "https://en.nia.gov.cn/"
+  },
+  {
+   "label": "Pudong gov: serviços para estrangeiros no PVG (2026)",
+   "url": "https://english.pudong.gov.cn/chinashftz/2026-05/09/c_1185867.htm"
+  },
+  {
+   "label": "Shanghai Airport: táxi oficial",
+   "url": "https://www.shanghaiairport.com/ensh/czc/index.html"
+  },
+  {
+   "label": "TravelChinaGuide: bilhete de metrô em Shanghai",
+   "url": "https://www.travelchinaguide.com/cityguides/shanghai/transportation/subway-ticket.htm"
+  },
+  {
+   "label": "Wikipedia: estação People's Square",
+   "url": "https://en.wikipedia.org/wiki/People's_Square_station_(Shanghai_Metro)"
+  },
+  {
+   "label": "ICAO: regras de power bank (mar/2026)",
+   "url": "https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation"
+  },
+  {
+   "label": "Trip.com: itens proibidos na alfândega da China",
+   "url": "https://us.trip.com/guide/info/china-customs-prohibited-items.html"
+  },
+  {
+   "label": "Nomad eSIM China+Japão+Coreia",
+   "url": "https://www.nomadesim.com/cn-jp-kr-eSIM"
+  },
+  {
+   "label": "China Travel Radar: Alipay para estrangeiros",
+   "url": "https://chinatravelradar.com/en/pay/alipay-for-foreigners/"
+  },
+  {
+   "label": "Trip.com: Metropolo Nanjing Hotel",
+   "url": "https://www.trip.com/hotels/shanghai-hotel-detail-756484/metropolo-nanjing-hotel-shanghai/"
+  },
+  {
+   "label": "Trip.com: Atour S Hotel Suzhou",
+   "url": "https://us.trip.com/hotels/suzhou-hotel-detail-133626172/atour-s-hotel-suzhou-guanqian-pingjiang-road/"
+  },
+  {
+   "label": "Trip.com: Atour Hotel Hangzhou Longxiangqiao",
+   "url": "https://sg.trip.com/hotels/hangzhou-hotel-detail-132003508/atour-hotel-hangzhou-west-lakeside-longxiangqiao-subway-station/"
+  },
+  {
+   "label": "China Briefing: registro de residência temporária",
+   "url": "https://www.china-briefing.com/news/temporary-residence-registration-in-china-a-guide-for-foreign-residents-and-visitors/"
+  },
+  {
+   "label": "Meet in Shanghai: Feira de Lanternas de Yuyuan 2026",
+   "url": "https://www.meet-in-shanghai.net/en/news/2026-shanghai-yuyuan-lantern-festival-opens-next-week-252158/"
+  },
+  {
+   "label": "MyShanghaiGuide: Shanghai Tower",
+   "url": "https://myshanghaiguide.com/shanghai-tower/"
+  },
+  {
+   "label": "Shanghai gov: Museu de Shanghai (reserva em férias e feriados)",
+   "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250826/3a293fbf5c954b349fb1cd3ca790ca44.html"
+  },
+  {
+   "label": "huoche.cncn.com: Shanghai–Suzhou",
+   "url": "https://huoche.cncn.com/train-%C9%CF%BA%A3-%CB%D5%D6%DD"
+  },
+  {
+   "label": "huoche.cncn.com: Suzhou–Hangzhou East",
+   "url": "https://huoche.cncn.com/train-%CB%D5%D6%DD-%BA%BC%D6%DD%B6%AB"
+  },
+  {
+   "label": "huoche.cncn.com: Hangzhou East–Shangrao",
+   "url": "https://huoche.cncn.com/train-%BA%BC%D6%DD%B6%AB-%C9%CF%C8%C4"
+  },
+  {
+   "label": "Trip.com: trem-bala para estrangeiros",
+   "url": "https://www.trip.com/blog/how-to-buy-china-high-speed-rail-tickets-for-foreigners/"
+  },
+  {
+   "label": "Wander in China: Humble Administrator's Garden",
+   "url": "https://www.wanderinchina.com/en/destinations/suzhou/humble-administrators-garden/"
+  },
+  {
+   "label": "Lingyin oficial: entrada gratuita com reserva",
+   "url": "https://en.lingyinsi.org/detail_15105.html"
+  },
+  {
+   "label": "OpenStreetMap Nominatim: coordenadas (上饶站, 龙井村, Metropolo)",
+   "url": "https://nominatim.openstreetmap.org/"
+  },
+  {
+   "label": "Consulado-Geral do Brasil em Xangai",
+   "url": "https://www.gov.br/mre/pt-br/consulado-xangai/o-consulado/atendimento-ao-publico-fale-conosco"
+  },
+  {
+   "label": "Time and Date: Festival das Lanternas 2027",
+   "url": "https://www.timeanddate.com/holidays/china/lantern-festival"
+  },
+  {
+   "label": "Shanghai Tourism: golpes a evitar",
+   "url": "https://www.shanghaitourism.org/shanghai-scams-to-avoid/"
+  }
+ ]
+}
