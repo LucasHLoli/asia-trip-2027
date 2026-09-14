@@ -1,0 +1,16 @@
+# Documentos pessoais — nunca versionar
+documentos/
+*passaporte*
+*passport*
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.heic
+
+# Sistema / temporários
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
