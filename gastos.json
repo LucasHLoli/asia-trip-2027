@@ -1,0 +1,17 @@
+{
+ "_nota": "Cópia dos gastos lançados no site (coleção 'gastos' do banco do artifact). Valores em BRL.",
+ "atualizado_em": "2026-09-14",
+ "gastos": [
+  {
+   "id": "g-2026-09-22-consultoria",
+   "date": "2026-09-22",
+   "description": "Consultoria de viagem (reunião de dicas)",
+   "amount_brl": 210,
+   "category": "Preparação e serviços",
+   "who": "casal",
+   "status": "a_pagar",
+   "source": "Print WhatsApp 14/09",
+   "note": "Reunião marcada para 22/09"
+  }
+ ]
+}

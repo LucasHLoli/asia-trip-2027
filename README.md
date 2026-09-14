@@ -10,6 +10,8 @@ Planejamento da viagem do casal: São Paulo → China (18/fev–20/mar/2027) →
 | `roteiro-china.html` | Site do roteiro: mapa animado, ranking de atrações, orçamento em R$, logística e cortes. Abra no navegador |
 | `dados-roteiro.json` | Dados brutos do roteiro (paradas, trechos, dias, orçamento, pesquisa das atrações) |
 | `documentos-checklist.json` | Pesquisa de visto, entrada, saúde, dinheiro e apps + 92 afazeres com prazo (base das abas Documentos e Afazeres) |
+| `guia-shanghai.json` | Guia detalhado de Shanghai e arredores (antes, na hora, depois, dia a dia) |
+| `gastos.json` | Cópia dos gastos reais lançados no site (Dinheiro → Gastos) |
 | `CHECKLIST.md` | Mesmo checklist em Markdown — dá para marcar `[x]` direto no GitHub |
 
 Versão publicada (privada): https://claude.ai/code/artifact/1af81ff5-7fc9-40d9-90ec-971a6e15cd55
